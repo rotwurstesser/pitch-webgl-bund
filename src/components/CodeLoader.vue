@@ -1,26 +1,31 @@
 <template>
-  <div class="relative">
-    <input
-      ref="codeinput"
-      type="text"
-      class="sr-only"
-      v-model="code"
-      id="myInput"
-    />
-    <span
-      class="cursor-pointer text-sm text-blue-800"
-      @click="isToggled = !isToggled"
-    >
-      {{ isToggled ? "Show" : "Hide" }} Code
-    </span>
-    <div v-show="!isToggled">
+  <div>
+    <div ref="code">
+      <slot></slot>
+    </div>
+    <div class="relative">
+      <input
+        ref="codeinput"
+        type="text"
+        class="sr-only"
+        v-model="code"
+        id="myInput"
+      />
       <span
-        class="absolute bg-white cursor-pointer right-0 text-blue-800 text-sm px-4 py-1"
-        @click="copy"
+        class="cursor-pointer text-sm text-blue-800"
+        @click="isToggled = !isToggled"
       >
-        copy
+        {{ isToggled ? "Show" : "Hide" }} Code
       </span>
-      <prism :language="lang">{{ code }}</prism>
+      <div v-show="!isToggled">
+        <span
+          class="absolute bg-white cursor-pointer right-0 text-blue-800 text-sm px-4 py-1"
+          @click="copy"
+        >
+          copy
+        </span>
+        <prism :language="lang">{{ code }}</prism>
+      </div>
     </div>
   </div>
 </template>
@@ -39,11 +44,7 @@ export default {
     Prism
   },
   mounted() {
-    let code = document.querySelector(this.reference);
-    if (!code) return;
-    code.classList.remove(this.reference.replace(".", ""));
-
-    this.code = code.outerHTML;
+    this.code = this.$refs.code.innerHTML;
   },
   props: {
     reference: {

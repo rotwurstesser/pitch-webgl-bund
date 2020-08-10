@@ -1,12 +1,11 @@
 <template>
   <div class="space-y-6">
     <h1>Buttons</h1>
-
-    <btn class="reference--btn-class" variant="primary" size="large">
-      Simple button
-    </btn>
-
-    <code-loader reference=".reference--btn-class" lang="html" />
+    <code-loader lang="html">
+      <btn variant="primary" size="large">
+        Simple button
+      </btn>
+    </code-loader>
   </div>
 </template>
 
