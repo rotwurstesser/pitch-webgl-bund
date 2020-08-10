@@ -1,12 +1,24 @@
 <template>
   <div>
+    <input
+      ref="codeinput"
+      type="text"
+      class="sr-only"
+      v-model="code"
+      id="myInput"
+    />
     <span
       class="cursor-pointer text-sm text-blue-800"
       @click="isToggled = !isToggled"
     >
       {{ isToggled ? "Show" : "Hide" }} Code
     </span>
-    <prism v-show="!isToggled" :language="lang">{{ code }}</prism>
+    <div v-show="!isToggled">
+      <span class="cursor-pointer text-sm text-blue-800" @click="copy">
+        copy
+      </span>
+      <prism :language="lang">{{ code }}</prism>
+    </div>
   </div>
 </template>
 
@@ -38,6 +50,13 @@ export default {
     lang: {
       type: String,
       default: "HTML"
+    }
+  },
+  methods: {
+    copy() {
+      this.$refs.codeinput.select();
+      this.$refs.codeinput.setSelectionRange(0, 99999); /*For mobile devices*/
+      document.execCommand("copy");
     }
   }
 };
