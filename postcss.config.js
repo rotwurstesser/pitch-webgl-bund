@@ -22,8 +22,8 @@ module.exports = {
   plugins: [
     require("postcss-import")(),
     require("tailwindcss")(),
-    // atm we always purge aggressively as hell
-    ...(process.env.NODE_ENV === "production" ? [purgecss] : []),
+    // atm we always purge aggressively as hell add purge css in the first bracket to purge on dev
+    ...(process.env.NODE_ENV === "production" ? [] : []),
     require("postcss-preset-env")({
       browsers: "last 2 versions",
       stage: 3,
