@@ -1,5 +1,13 @@
 <template>
-  <prism :language="lang">{{ code }}</prism>
+  <div>
+    <span
+      class="cursor-pointer text-sm text-blue-800"
+      @click="isToggled = !isToggled"
+    >
+      {{ isToggled ? "Show" : "Hide" }} Code
+    </span>
+    <prism v-show="!isToggled" :language="lang">{{ code }}</prism>
+  </div>
 </template>
 
 <script>
@@ -8,7 +16,8 @@ export default {
   name: "CodeLoader",
   data() {
     return {
-      code: ""
+      code: "",
+      isToggled: "false"
     };
   },
   components: {
@@ -18,7 +27,7 @@ export default {
     let code = document.querySelector(this.reference);
     if (!code) return;
 
-    let cleanedCode = code.outerHTML.replace(/ (reference--).*?".*?"/g, "");
+    let cleanedCode = code.outerHTML.replace(/ reference--(.*?)[\s]/g, " ");
     this.code = cleanedCode;
   },
   props: {
