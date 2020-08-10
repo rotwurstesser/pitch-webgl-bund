@@ -43,6 +43,14 @@ const routes = [
     }
   },
   {
+    path: "/components/spacings",
+    name: "ComponentsSpacings",
+    components: {
+      main: () => import("../views/components/Spacings.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
     path: "/components/buttons",
     name: "ComponentsButtons",
     components: {

@@ -5,10 +5,12 @@ import store from "./store";
 import "./assets/css/main.postcss";
 import CodeLoader from "@/components/CodeLoader.vue";
 import "./plugins/axe.js";
+import Prism from "vue-prism-component";
 import "prismjs";
 import "prismjs/themes/prism.css";
 Vue.config.productionTip = false;
 Vue.component("code-loader", CodeLoader);
+Vue.component("prism", Prism);
 
 new Vue({
   router,

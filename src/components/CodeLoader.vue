@@ -31,7 +31,6 @@
 </template>
 
 <script>
-import Prism from "vue-prism-component";
 export default {
   name: "CodeLoader",
   data() {
@@ -39,9 +38,6 @@ export default {
       code: "",
       isToggled: "false"
     };
-  },
-  components: {
-    Prism
   },
   mounted() {
     this.code = this.$refs.code.innerHTML;
