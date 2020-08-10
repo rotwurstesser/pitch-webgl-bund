@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div ref="code">
+    <div ref="code" class="whitespace-pre-wrap">
       <slot></slot>
     </div>
     <div class="relative">
@@ -45,6 +45,7 @@ export default {
   },
   mounted() {
     this.code = this.$refs.code.innerHTML;
+    debugger;
   },
   props: {
     lang: {
