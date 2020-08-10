@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="relative">
     <input
       ref="codeinput"
       type="text"
@@ -14,7 +14,10 @@
       {{ isToggled ? "Show" : "Hide" }} Code
     </span>
     <div v-show="!isToggled">
-      <span class="cursor-pointer text-sm text-blue-800" @click="copy">
+      <span
+        class="absolute bg-white cursor-pointer right-0 text-blue-800 text-sm px-4 py-1"
+        @click="copy"
+      >
         copy
       </span>
       <prism :language="lang">{{ code }}</prism>
