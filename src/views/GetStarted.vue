@@ -2,7 +2,8 @@
   <div class="lg:w-2/3 space-y-6">
     <h1>Get Started</h1>
     <h2>
-      [Get Started introduction, general information about the guidelines and the components, how the design system is structured]
+      [Get Started introduction, general information about the guidelines and
+      the components, how the design system is structured]
     </h2>
     <div class="grid grid-col lg:grid-cols-2 gap-6 pt-10">
       <div class="grid__item">
@@ -13,7 +14,11 @@
           <p>
             [Description here: what will designers find there]
           </p>
-          <btn variant="primary" size="large" @click.native="$router.push({ name : 'Designers'})">
+          <btn
+            variant="primary"
+            size="large"
+            @click.native="$router.push({ name: 'Designers' })"
+          >
             Start as a designer
           </btn>
         </card>
@@ -26,7 +31,11 @@
           <p>
             [Description here: what will developers find there]
           </p>
-          <btn variant="primary" size="large" @click.native="$router.push({ name : 'Developers'})">
+          <btn
+            variant="primary"
+            size="large"
+            @click.native="$router.push({ name: 'Developers' })"
+          >
             Start as a developer
           </btn>
         </card>
@@ -44,5 +53,5 @@ export default {
     Card,
     Btn
   }
-}
+};
 </script>

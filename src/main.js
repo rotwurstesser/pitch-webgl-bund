@@ -4,6 +4,8 @@ import router from "./router";
 import store from "./store";
 import "./assets/css/main.postcss";
 import "./plugins/axe.js";
+import "prismjs";
+import "prismjs/themes/prism.css";
 Vue.config.productionTip = false;
 
 new Vue({
