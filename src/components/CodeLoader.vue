@@ -41,9 +41,9 @@ export default {
   mounted() {
     let code = document.querySelector(this.reference);
     if (!code) return;
+    code.classList.remove(this.reference.replace(".", ""));
 
-    let cleanedCode = code.outerHTML.replace(/ reference--(.*?)[\s]/g, " ");
-    this.code = cleanedCode;
+    this.code = code.outerHTML;
   },
   props: {
     reference: {
