@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="">
+    <header class="relative">
       <div
         class="flex items-center justify-between px-6 border-b-2 border-red-500"
       >
