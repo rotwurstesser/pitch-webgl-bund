@@ -1,0 +1,18 @@
+/*----------------------------------------*\
+  FORMS
+\*----------------------------------------*/
+label,
+label > span {
+  @apply font-bold inline-block text-base mb-3;
+}
+
+.form-textarea {
+  @apply min-h-16;
+}
+
+#app .form-textarea:disabled {
+    resize: none;
+    border: none;
+    padding-left: 0;
+    @apply text-gray-700;
+}
