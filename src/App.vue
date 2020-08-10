@@ -38,7 +38,7 @@
         </div>
       </div>
     </header>
-    <div class="h-screen flex overflow-hidden bg-white">
+    <div class="h-screen flex bg-white">
       <!-- Off-canvas menu for mobile -->
       <div class="lg:hidden">
         Mobile menu here
@@ -80,7 +80,7 @@
           </nav>
         </div>
       </div>
-      <main class="lg:text-lg flex flex-col w-0 flex-1 overflow-hidden p-8">
+      <main class="lg:text-lg flex flex-col w-0 flex-1 p-8">
         <router-view name="main" />
       </main>
     </div>

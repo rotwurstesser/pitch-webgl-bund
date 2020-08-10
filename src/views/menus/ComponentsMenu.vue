@@ -7,16 +7,18 @@
       >
         Atoms
       </h3>
-      <div
-        class="mt-1 space-y-1"
-        role="group"
-        aria-labelledby="atoms-headline"
-      >
+      <div class="mt-1 space-y-1" role="group" aria-labelledby="atoms-headline">
         <router-link
           to="/components/headings"
           class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Headings
+        </router-link>
+        <router-link
+          to="/components/colors"
+          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+        >
+          Colors
         </router-link>
 
         <router-link
@@ -35,11 +37,7 @@
       >
         Cells
       </h3>
-      <div
-        class="mt-1 space-y-1"
-        role="group"
-        aria-labelledby="cells-headline"
-      >
+      <div class="mt-1 space-y-1" role="group" aria-labelledby="cells-headline">
         <router-link
           to="/components/cards"
           class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"

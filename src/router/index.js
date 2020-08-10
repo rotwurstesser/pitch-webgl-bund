@@ -35,6 +35,14 @@ const routes = [
     }
   },
   {
+    path: "/components/colors",
+    name: "ComponentsColors",
+    components: {
+      main: () => import("../views/components/Colors.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
     path: "/components/buttons",
     name: "ComponentsButtons",
     components: {

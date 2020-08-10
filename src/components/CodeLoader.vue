@@ -45,7 +45,6 @@ export default {
   },
   mounted() {
     this.code = this.$refs.code.innerHTML;
-    debugger;
   },
   props: {
     lang: {
