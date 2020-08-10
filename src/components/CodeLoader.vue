@@ -5,7 +5,7 @@
     </div>
     <div class="relative">
       <input
-        ref="codeinput"
+        ref="copyinput"
         type="text"
         class="sr-only"
         v-model="code"
@@ -47,10 +47,6 @@ export default {
     this.code = this.$refs.code.innerHTML;
   },
   props: {
-    reference: {
-      type: String,
-      required: true
-    },
     lang: {
       type: String,
       default: "HTML"
@@ -58,8 +54,8 @@ export default {
   },
   methods: {
     copy() {
-      this.$refs.codeinput.select();
-      this.$refs.codeinput.setSelectionRange(0, 99999); /*For mobile devices*/
+      this.$refs.copyinput.select();
+      this.$refs.copyinput.setSelectionRange(0, 99999); /*For mobile devices*/
       document.execCommand("copy");
     }
   }
