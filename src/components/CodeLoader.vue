@@ -13,7 +13,7 @@
           id="myInput"
         />
         <span
-          class="border-0 border-gray-400 border-r-2 btn btn--tertiary btn--xs cursor-pointer inline-block"
+          class="border-0 border-gray-400 border-r btn btn--tertiary btn--xs cursor-pointer inline-block"
           @click="openInLoader"
         >
           Open externally
