@@ -24,12 +24,8 @@
       v-show="!isToggled"
       class="flex items-stretch border border-gray-300 border-t-0"
     >
-
       <prism :language="lang">{{ code }}</prism>
-      <span
-        class="btn btn--xs cursor-pointer whitespace-no-wrap"
-        @click="copy"
-      >
+      <span class="btn btn--xs cursor-pointer whitespace-no-wrap" @click="copy">
         Copy code
       </span>
     </div>
@@ -64,8 +60,8 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
-  .language-html {
-    margin: 0;
-  }
+<style lang="postcss">
+.language-html {
+  margin: 0;
+}
 </style>
