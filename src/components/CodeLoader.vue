@@ -18,6 +18,12 @@
         >
           {{ isToggled ? "Show" : "Hide" }} Code
         </span>
+        <span
+          class="btn btn--xs btn--tertiary cursor-pointer"
+          @click="openInLoader"
+        >
+          Open externally
+        </span>
       </div>
     </div>
     <div
@@ -55,6 +61,13 @@ export default {
       this.$refs.copyinput.select();
       this.$refs.copyinput.setSelectionRange(0, 99999); /*For mobile devices*/
       document.execCommand("copy");
+    },
+    openInLoader() {
+      let routeData = this.$router.resolve({
+        name: "ComponentDetail",
+        query: { data: encodeURI(this.code) }
+      });
+      window.open(routeData.href, "_blank");
     }
   }
 };

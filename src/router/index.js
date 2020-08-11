@@ -82,6 +82,13 @@ const routes = [
     }
   },
   {
+    path: "/component-detail",
+    name: "ComponentDetail",
+    components: {
+      main: () => import("../views/ComponentLoader.vue")
+    }
+  },
+  {
     path: "/Accessibility",
     name: "Accessibility",
     components: {
