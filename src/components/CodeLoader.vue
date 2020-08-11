@@ -1,31 +1,37 @@
 <template>
   <div>
-    <div ref="code" class="whitespace-pre-wrap">
-      <slot></slot>
-    </div>
-    <div class="relative">
-      <input
-        ref="copyinput"
-        type="text"
-        class="sr-only"
-        v-model="code"
-        id="myInput"
-      />
-      <span
-        class="cursor-pointer text-sm text-blue-800"
-        @click="isToggled = !isToggled"
-      >
-        {{ isToggled ? "Show" : "Hide" }} Code
-      </span>
-      <div v-show="!isToggled">
-        <span
-          class="absolute bg-white cursor-pointer right-0 text-blue-800 text-sm px-4 py-1"
-          @click="copy"
-        >
-          copy
-        </span>
-        <prism :language="lang">{{ code }}</prism>
+    <div class="relative border border-gray-300 p-8">
+      <div ref="code">
+        <slot></slot>
       </div>
+      <div class="absolute right-0 bottom-0">
+        <input
+          ref="copyinput"
+          type="text"
+          class="sr-only"
+          v-model="code"
+          id="myInput"
+        />
+        <span
+          class="btn btn--xs btn--tertiary cursor-pointer"
+          @click="isToggled = !isToggled"
+        >
+          {{ isToggled ? "Show" : "Hide" }} Code
+        </span>
+      </div>
+    </div>
+    <div
+      v-show="!isToggled"
+      class="flex items-stretch border border-gray-300 border-t-0"
+    >
+
+      <prism :language="lang">{{ code }}</prism>
+      <span
+        class="btn btn--xs cursor-pointer whitespace-no-wrap"
+        @click="copy"
+      >
+        Copy code
+      </span>
     </div>
   </div>
 </template>
@@ -57,3 +63,9 @@ export default {
   }
 };
 </script>
+
+<style lang="postcss" scoped>
+  .language-html {
+    margin: 0;
+  }
+</style>
