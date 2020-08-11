@@ -4,7 +4,7 @@
       <div ref="code">
         <slot></slot>
       </div>
-      <div class="absolute right-0 bottom-0">
+      <div class="absolute right-0 bottom-0 pb-1">
         <input
           ref="copyinput"
           type="text"
@@ -13,16 +13,16 @@
           id="myInput"
         />
         <span
+          class="border-0 border-gray-400 border-r-2 btn btn--tertiary btn--xs cursor-pointer inline-block"
+          @click="openInLoader"
+        >
+          Open externally
+        </span>
+        <span
           class="btn btn--xs btn--tertiary cursor-pointer"
           @click="isToggled = !isToggled"
         >
           {{ isToggled ? "Show" : "Hide" }} Code
-        </span>
-        <span
-          class="btn btn--xs btn--tertiary cursor-pointer"
-          @click="openInLoader"
-        >
-          Open externally
         </span>
       </div>
     </div>
