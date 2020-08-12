@@ -51,6 +51,14 @@ const routes = [
     }
   },
   {
+    path: "/components/icons",
+    name: "ComponentIcons",
+    components: {
+      main: () => import("../views/components/Icons.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
     path: "/components/spacings",
     name: "ComponentsSpacings",
     components: {
