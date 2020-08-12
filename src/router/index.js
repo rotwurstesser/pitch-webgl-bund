@@ -35,10 +35,26 @@ const routes = [
     }
   },
   {
+    path: "/components/grid",
+    name: "GridComponent",
+    components: {
+      main: () => import("../views/atoms/Grid.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
     path: "/components/colors",
     name: "ComponentsColors",
     components: {
       main: () => import("../views/components/Colors.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
+    path: "/components/icons",
+    name: "ComponentIcons",
+    components: {
+      main: () => import("../views/components/Icons.vue"),
       sidebar: () => import("../views/menus/ComponentsMenu.vue")
     }
   },

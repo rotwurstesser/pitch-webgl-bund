@@ -12,7 +12,11 @@
       the Swiss Administration. Avoid repeating design or development work
       that’s already been done.
     </p>
-    <btn variant="primary" size="large" @click.native="$router.push({ name : 'GetStarted'})">
+    <btn
+      variant="primary"
+      size="large"
+      @click.native="$router.push({ name: 'GetStarted' })"
+    >
       Get started
     </btn>
   </div>
