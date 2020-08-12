@@ -26,6 +26,12 @@
         >
           Spacings
         </router-link>
+        <router-link
+          to="/components/grid"
+          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+        >
+          Grid
+        </router-link>
 
         <router-link
           to="/components/buttons"

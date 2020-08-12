@@ -35,6 +35,14 @@ const routes = [
     }
   },
   {
+    path: "/components/grid",
+    name: "GridComponent",
+    components: {
+      main: () => import("../views/atoms/Grid.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
     path: "/components/colors",
     name: "ComponentsColors",
     components: {
