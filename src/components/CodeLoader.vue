@@ -39,6 +39,8 @@
 </template>
 
 <script>
+const beautify_html = require("js-beautify").html_beautify;
+
 export default {
   name: "CodeLoader",
   data() {
@@ -48,7 +50,7 @@ export default {
     };
   },
   mounted() {
-    this.code = this.$refs.code.innerHTML;
+    this.code = beautify_html(this.$refs.code.innerHTML);
   },
   props: {
     lang: {
