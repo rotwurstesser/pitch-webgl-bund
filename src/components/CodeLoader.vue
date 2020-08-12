@@ -39,7 +39,8 @@
 </template>
 
 <script>
-const beautify_html = require("js-beautify").html_beautify;
+const beautify_html = require("js-beautify").html;
+const beautify_options = { indent_size: 2 };
 
 export default {
   name: "CodeLoader",
@@ -50,7 +51,7 @@ export default {
     };
   },
   mounted() {
-    this.code = beautify_html(this.$refs.code.innerHTML);
+    this.code = beautify_html(this.$refs.code.innerHTML, beautify_options);
   },
   props: {
     lang: {
