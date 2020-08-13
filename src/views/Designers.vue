@@ -8,7 +8,7 @@
     <p>
       If you see any Elements you would like to use in your App or if you want
       to play around with them click on the figma icon
-      <svg-icon class="ml-2 stroke-2" name="figma" />
+      <svg-icon class="mx-2 stroke-2 inline-block" name="figma" />
     </p>
   </div>
 </template>

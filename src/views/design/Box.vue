@@ -3,7 +3,7 @@
     <h1>Box</h1>
     <p>
       Boxes help to accentuate content, to use this Element click on the
-      <svg-icon class="ml-2 stroke-2" name="figma" /> icon
+      <svg-icon class="mx-2 stroke-2 inline-block" name="figma" /> icon
     </p>
     <iframe
       style="border: 1px solid rgba(0, 0, 0, 0.1);"
