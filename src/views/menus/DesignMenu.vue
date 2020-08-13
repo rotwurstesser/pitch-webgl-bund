@@ -15,6 +15,14 @@
           Icons
         </router-link>
       </div>
+      <div class="mt-1 space-y-1" role="group" aria-labelledby="atoms-headline">
+        <router-link
+          to="/design/Box"
+          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+        >
+          Box
+        </router-link>
+      </div>
     </div>
   </div>
 </template>

@@ -105,6 +105,7 @@ const routes = [
       main: () => import("../views/ComponentLoader.vue")
     }
   },
+
   {
     path: "/Accessibility",
     name: "Accessibility",
@@ -137,6 +138,14 @@ const routes = [
     name: "DesignIcons",
     components: {
       main: () => import("../views/design/Icons.vue"),
+      sidebar: () => import("../views/menus/DesignMenu.vue")
+    }
+  },
+  {
+    path: "/design/box",
+    name: "DesignBox",
+    components: {
+      main: () => import("../views/design/Box.vue"),
       sidebar: () => import("../views/menus/DesignMenu.vue")
     }
   }
