@@ -2,7 +2,8 @@
   <div class="space-y-6 max-w-4xl">
     <h1>Icons</h1>
     <p>
-      Icons are the bomb
+      to use this Element click on the
+      <svg-icon class="mx-2 stroke-2 inline-block" name="figma" /> icon
     </p>
     <iframe
       style="border: 1px solid rgba(0, 0, 0, 0.1);"
