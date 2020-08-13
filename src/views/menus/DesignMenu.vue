@@ -1,5 +1,6 @@
 <template>
   <div>
+    <main-navi-part />
     <div class="mt-8">
       <h3
         class="px-3 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
@@ -26,3 +27,8 @@
     </div>
   </div>
 </template>
+<script>
+import MainNaviPart from "../components/mainNaviPart.vue";
+
+export default { components: { MainNaviPart } };
+</script>
