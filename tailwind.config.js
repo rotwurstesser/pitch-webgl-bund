@@ -241,7 +241,7 @@ module.exports = {
       default: "1"
     },
     fontFamily: {
-      sans: ["FrutigerNext", "Inter var", ...defaultTheme.fontFamily.sans],
+      sans: ["Suisse Sign", "Inter var", ...defaultTheme.fontFamily.sans],
       serif: ["Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
       mono: [
         "Menlo",
