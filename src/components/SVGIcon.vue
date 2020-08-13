@@ -37,11 +37,3 @@ export default {
   }
 };
 </script>
-
-<style>
-.svg-icon {
-  fill: currentColor;
-  height: 24px;
-  width: 24px;
-}
-</style>

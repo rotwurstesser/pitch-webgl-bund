@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-6 max-w-4xl">
+  <div class="space-y-6 max-w-4xl icons">
     <h1>Icons</h1>
     <p>
       Icons are the bomb
@@ -21,3 +21,9 @@
     </div>
   </div>
 </template>
+<style>
+.icons .svg-icon {
+  height: 24px;
+  width: 24px;
+}
+</style>
