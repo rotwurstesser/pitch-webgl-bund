@@ -9,6 +9,7 @@
       to use an Element click on the
       <svg-icon class="mx-2 stroke-2 inline-block" name="figma" /> icon
     </p>
+    <br />
     <h2>Swiss Icons</h2>
     <p>these icons represent our love to switzerland</p>
     <iframe
