@@ -2,7 +2,8 @@
   <div class="space-y-6 max-w-4xl">
     <h1>Box</h1>
     <p>
-      Boxes help to accentuate content
+      Boxes help to accentuate content, to use this Element click on the
+      <svg-icon class="ml-2 stroke-2" name="figma" /> icon
     </p>
     <iframe
       style="border: 1px solid rgba(0, 0, 0, 0.1);"
