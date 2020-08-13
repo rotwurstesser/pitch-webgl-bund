@@ -8,6 +8,7 @@
     <ul class="my-4">
       <li class="flex space-x-4">
         <svg-icon class="h-6 w-12" name="arrow" /> Give all users the same
+        experience
       </li>
       <li class="flex space-x-4">
         <svg-icon class="h-6 w-12" name="arrow" /> Adapt to users and situations
