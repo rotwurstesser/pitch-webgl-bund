@@ -121,7 +121,9 @@ const routes = [
       sidebar: () => import("../views/menus/ComponentsMenu.vue")
     }
   },
+  ///////////////////////////////////////////////////////////////
   // designer items here
+  ///////////////////////////////////////////////////////////////
   {
     path: "/Designers",
     name: "Designers",
