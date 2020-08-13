@@ -38,7 +38,7 @@ const routes = [
     path: "/components/grid",
     name: "GridComponent",
     components: {
-      main: () => import("../views/atoms/Grid.vue"),
+      main: () => import("../views/components/Grid.vue"),
       sidebar: () => import("../views/menus/ComponentsMenu.vue")
     }
   },
@@ -58,6 +58,7 @@ const routes = [
       sidebar: () => import("../views/menus/ComponentsMenu.vue")
     }
   },
+
   {
     path: "/components/spacings",
     name: "ComponentsSpacings",
@@ -113,19 +114,28 @@ const routes = [
     }
   },
   {
-    path: "/Designers",
-    name: "Designers",
-    components: {
-      main: () => import("../views/Designers.vue"),
-      sidebar: () => import("../views/menus/GetStartedMenu.vue")
-    }
-  },
-  {
     path: "/Developers",
     name: "Developers",
     components: {
       main: () => import("../views/Developers.vue"),
-      sidebar: () => import("../views/menus/GetStartedMenu.vue")
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  // designer items here
+  {
+    path: "/Designers",
+    name: "Designers",
+    components: {
+      main: () => import("../views/Designers.vue"),
+      sidebar: () => import("../views/menus/DesignMenu.vue")
+    }
+  },
+  {
+    path: "/design/icons",
+    name: "DesignIcons",
+    components: {
+      main: () => import("../views/design/Icons.vue"),
+      sidebar: () => import("../views/menus/DesignMenu.vue")
     }
   }
 ];

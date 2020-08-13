@@ -2,9 +2,14 @@
   <div class="space-y-6">
     <h1>Buttons</h1>
     <code-loader lang="html">
-      <btn variant="primary" size="large">
-        Simple button
-      </btn>
+      <div class="flex space-x-4">
+        <btn variant="primary" size="large">
+          Simple button
+        </btn>
+        <btn class="flex align-middle" variant="primary" size="large">
+          <svg-icon class="mr-2 stroke-2" name="chevron-right" /> Icon button
+        </btn>
+      </div>
     </code-loader>
   </div>
 </template>

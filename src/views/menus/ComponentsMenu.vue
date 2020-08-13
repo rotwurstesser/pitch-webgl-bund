@@ -5,7 +5,7 @@
         class="px-3 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
         id="atoms-headline"
       >
-        Atoms
+        Design Tokens
       </h3>
       <div class="mt-1 space-y-1" role="group" aria-labelledby="atoms-headline">
         <router-link
