@@ -38,13 +38,6 @@
         >
           Icons
         </router-link>
-
-        <router-link
-          to="/components/buttons"
-          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
-        >
-          Buttons
-        </router-link>
       </div>
     </div>
 
@@ -61,6 +54,18 @@
           class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Cards
+        </router-link>
+        <router-link
+          to="/components/buttons"
+          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+        >
+          Buttons
+        </router-link>
+        <router-link
+          to="/components/lists"
+          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+        >
+          Lists
         </router-link>
       </div>
     </div>

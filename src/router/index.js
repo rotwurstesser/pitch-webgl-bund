@@ -76,6 +76,14 @@ const routes = [
     }
   },
   {
+    path: "/components/lists",
+    name: "ComponentLists",
+    components: {
+      main: () => import("../views/components/Lists.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
     path: "/components/cards",
     name: "ComponentsCards",
     components: {
