@@ -5,13 +5,9 @@
 </template>
 
 <script>
-
-
 export default {
   name: "Card",
-  components: {
-
-  },
+  components: {},
   props: {
     size: {
       type: String,
