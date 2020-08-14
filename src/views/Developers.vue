@@ -38,14 +38,14 @@
       {{ linkBase }}
     </prism>
     <br />
-    <div class="grid grid-col lg:grid-cols-2 gap-6 pt-10">
+    <div class="grid grid-col lg:grid-cols-2 gap-6 pt-10 mb-12">
       <div class="grid__item">
         <card class="space-y-6 h-full">
           <h2 class="mb-6">
             Guidelines
           </h2>
           <p>
-            Before you start working please take a look at the Guidelines to ensure you have an understanding of the rules governing the Swiss Styleguide and its Brand.
+            Discover the Guidelines to ensure you have an understanding of the rules governing the Swiss Styleguide and its Brand.
           </p>
           <template v-slot:footer>
             <router-link to="/guidelines">
@@ -62,7 +62,7 @@
             Components
           </h2>
           <p>
-            As a developer you might be interested in prototyping or starting to build an application for the Bund or an organization close to the Bund. By using the provided styles, assets and markup you can ensure a unified product and reduce tech debt.
+          Start to build an application for the Swiss Confederation or an organization close to it. By using the provided styles, assets and markup you can ensure a unified product and reduce tech debt.
           </p>
           <template v-slot:footer>
             <router-link to="/components">
