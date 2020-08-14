@@ -26,10 +26,16 @@
           <router-link to="/" class="font-bold no-underline h-100 p-8">
             Get started
           </router-link>
-          <router-link to="/guidelines" class="font-bold no-underline h-100 p-8">
+          <router-link
+            to="/guidelines"
+            class="font-bold no-underline h-100 p-8"
+          >
             Guidelines
           </router-link>
-          <router-link to="/components" class="font-bold no-underline h-100 p-8">
+          <router-link
+            to="/components"
+            class="font-bold no-underline h-100 p-8"
+          >
             Components
           </router-link>
           <router-link to="/examples" class="font-bold no-underline h-100 p-8">
@@ -45,11 +51,9 @@
       </div-->
       <!-- Static sidebar for desktop -->
       <div class="sidebar hidden lg:flex lg:flex-shrink-0">
-        <div
-          class="flex flex-col w-64 border-r border-gray-400 pt-5 pb-4"
-        >
+        <div class="flex flex-col w-64 border-r border-gray-400 pt-5 pb-4">
           <!-- Sidebar component, swap this element with another sidebar if you like -->
-          <div class="h-0 flex-1 flex flex-col overflow-y-auto">
+          <div class="h-0 flex-1 flex flex-col overflow-y-auto relative">
             <!-- Sidebar Search --
             <div class="px-3 mt-5">
               <label for="search" class="sr-only">Search</label>
@@ -69,6 +73,7 @@
             </nav>
           </div>
           <!-- Sidebar footer -->
+          <git-version />
           <nav
             aria-label="language-switcher"
             class="fixed bottom-0 flex justify-center w-64 bg-gray-200"
@@ -88,6 +93,7 @@
 </template>
 
 <script>
+import GitVersion from "./views/components/GitVersion.vue";
 import Btn from "@/components/Btn.vue";
 
 export default {
@@ -97,7 +103,8 @@ export default {
     }
   }),
   components: {
-    Btn
+    Btn,
+    GitVersion
   }
 };
 </script>
