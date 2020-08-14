@@ -10,8 +10,11 @@
       <svg-icon class="mx-2 stroke-2 inline-block" name="figma" /> icon
     </p>
     <br />
-    <h2>Swiss Icons</h2>
-    <p>these icons represent our love to switzerland</p>
+    <h2>Swiss Pictograms</h2>
+    <p>
+      Sometimes it makes more Sense to use Pictograms instead of Icons in this
+      case we recommend using these:
+    </p>
     <iframe
       style="border: 1px solid rgba(0, 0, 0, 0.1);"
       width="800"
