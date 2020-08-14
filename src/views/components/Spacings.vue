@@ -1,58 +1,13 @@
 <template>
   <div>
     <div class="mb-16">
-      <h2>Customizing Spacing</h2>
-      <p>Customizing the default spacing scale for your project.</p>
-
-      <hr class="mt-8 mb-8" />
-
+      <h2 class="mb-8">Spacings</h2>
+      <h3 class="mb-8">Spacing scale</h3>
       <p>
-        The theme.spacing section of your tailwind.config.js file allows you to
-        override Tailwind's default spacing/sizing scale.
-      </p>
-      <prism language="javascript">{{ code }}</prism>
-      <p>
-        By default the spacing scale is shared by the padding, margin, width,
-        and height utilities so the above configuration would generate classes
-        like .p-2, .mt-3, .w-5, .h-6, etc.
-      </p>
-
-      <hr class="mt-16 mb-16" />
-
-      <h3>Overriding the default spacing scale</h3>
-      <p>
-        As described in the theme documentation, if you'd like to override the
-        default spacing scale, you can do so using the theme.spacing section of
-        your tailwind.config.js file:
-      </p>
-      <prism language="javascript">{{ code_override }}</prism>
-      <p>
-        This will disable Tailwind's default spacing scale and generate classes
-        like p-sm, m-md, w-lg, and h-xl instead.
-      </p>
-
-      <hr class="mt-16 mb-16" />
-
-      <h3>Extending the default spacing scale</h3>
-      <p>
-        As described in the theme documentation, if you'd like to extend the
-        default spacing scale, you can do so using the theme.extend.spacing
-        section of your tailwind.config.js file:
-      </p>
-      <prism language="javascript">{{ code_extend }}</prism>
-      <p>
-        This will generate classes like p-72, m-84, and h-96 in addition to all
-        of Tailwind's default spacing/sizing utilities.
-      </p>
-
-      <hr class="mt-16 mb-16" />
-
-      <h3>Default spacing scale</h3>
-      <p>
-        By default, Tailwind includes a generous and comprehensive numeric
-        spacing scale. The values are proportional, so 16 is twice as much
-        spacing as 8 for example. One spacing unit is equal to 0.25rem, which
-        translates to 4px by default in common browsers.
+        By default, the Designsystem includes a generous and comprehensive
+        numeric spacing scale. The values are proportional, so 16 is twice as
+        much spacing as 8 for example. One spacing unit is equal to 0.25rem,
+        which translates to 4px by default in common browsers.
       </p>
 
       <table>
@@ -297,6 +252,48 @@
           </tr>
         </tbody>
       </table>
+      <hr class="mt-8 mb-8" />
+
+      <p>
+        The theme.spacing section of the tailwind.config.js file allows you to
+        override the default spacing/sizing scale.
+      </p>
+      <prism language="javascript">{{ code }}</prism>
+      <p>
+        By default the spacing scale is shared by the padding, margin, width,
+        and height utilities so the above configuration would generate classes
+        like .p-2, .mt-3, .w-5, .h-6, etc.
+      </p>
+
+      <hr class="mt-16 mb-16" />
+
+      <h3>Overriding the default spacing scale</h3>
+      <p>
+        As described in the theme documentation, if you'd like to override the
+        default spacing scale, you can do so using the theme.spacing section of
+        your tailwind.config.js file:
+      </p>
+      <prism language="javascript">{{ code_override }}</prism>
+      <p>
+        This will disable Tailwind's default spacing scale and generate classes
+        like p-sm, m-md, w-lg, and h-xl instead.
+      </p>
+
+      <hr class="mt-16 mb-16" />
+
+      <h3>Extending the default spacing scale</h3>
+      <p>
+        As described in the theme documentation, if you'd like to extend the
+        default spacing scale, you can do so using the theme.extend.spacing
+        section of your tailwind.config.js file:
+      </p>
+      <prism language="javascript">{{ code_extend }}</prism>
+      <p>
+        This will generate classes like p-72, m-84, and h-96 in addition to all
+        of Tailwind's default spacing/sizing utilities.
+      </p>
+
+      <hr class="mt-16 mb-16" />
     </div>
   </div>
 </template>
