@@ -14,37 +14,42 @@
     </p>
     <div class="grid grid-col lg:grid-cols-2 gap-6 pt-10">
       <div class="grid__item">
-        <card class="space-y-6 ">
-          <h2>
+        <card class="space-y-6 h-full">
+          <h2 class="mb-6">
             Informations for designers
           </h2>
           <p>
             [Description here: what will designers find there]
           </p>
-          <btn
-            variant="primary"
-            size="large"
-            @click.native="$router.push({ name: 'Designers' })"
-          >
-            Start as a designer
-          </btn>
+          <template v-slot:footer>
+            <btn
+              variant="primary"
+              size="large"
+              @click.native="$router.push({ name: 'Designers' })"
+            >
+              Start as a designer
+            </btn>
+          </template>
         </card>
       </div>
       <div class="grid__item">
-        <card class="space-y-6 ">
-          <h2>
+        <card class="space-y-6 h-full">
+          <h2 class="mb-6">
             Informations for developers
           </h2>
           <p>
-            [Description here: what will developers find there]
+            [Description here: what will developers find there sdfsdffdfs]
           </p>
-          <btn
-            variant="primary"
-            size="large"
-            @click.native="$router.push({ name: 'Developers' })"
-          >
-            Start as a developer
-          </btn>
+          <template v-slot:footer>
+            <btn
+              variant="primary"
+              size="large"
+              @click.native="$router.push({ name: 'Developers' })"
+            >
+              Start as a developer
+            </btn>
+          </template>
+
         </card>
       </div>
     </div>

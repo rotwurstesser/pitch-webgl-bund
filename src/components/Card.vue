@@ -1,6 +1,9 @@
 <template>
-  <div class="card">
-    <slot></slot>
+  <div class="card flex flex-col justify-between items-start">
+    <div>
+      <slot></slot>
+    </div>
+    <slot name="footer" />
   </div>
 </template>
 
