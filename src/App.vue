@@ -44,7 +44,7 @@
         </div>
       </div>
     </header>
-    <div class="h-screen flex bg-white">
+    <div class="min-h-screen flex bg-white">
       <!-- Off-canvas menu for mobile -->
       <!--div class="lg:hidden">
         Mobile menu here
