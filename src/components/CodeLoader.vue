@@ -17,7 +17,6 @@
           :href="figmalink"
           target="_blank"
           class="border-0 border-gray-400 border-r btn btn--tertiary btn--xs cursor-pointer inline-block"
-          @click="openInFigma"
         >
           Open in Figma
         </a>
