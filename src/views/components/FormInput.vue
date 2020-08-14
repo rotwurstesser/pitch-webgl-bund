@@ -9,7 +9,7 @@
       <form>
         <div class="mb-16">
           <p>Basic input</p>
-          <form-input label="input:"></form-input>
+          <form-input label="label"></form-input>
         </div>
       </form>
     </code-loader>
