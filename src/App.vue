@@ -2,7 +2,7 @@
   <div>
     <header class="relative">
       <div
-        class="flex items-center justify-between px-6 border-b-2 border-red-500"
+        class="flex items-center justify-between px-6 border-b border-gray-400"
       >
         <router-link to="/" class="ml-0">
           <svg-icon name="logo" class="h-24 my-4 w-auto fill-current" />
@@ -46,7 +46,7 @@
       <!-- Static sidebar for desktop -->
       <div class="sidebar hidden lg:flex lg:flex-shrink-0">
         <div
-          class="flex flex-col w-64 border-r border-gray-200 pt-5 pb-4 bg-gray-100"
+          class="flex flex-col w-64 border-r border-gray-400 pt-5 pb-4"
         >
           <!-- Sidebar component, swap this element with another sidebar if you like -->
           <div class="h-0 flex-1 flex flex-col overflow-y-auto">
