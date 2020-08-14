@@ -12,6 +12,15 @@
           v-model="code"
           id="myInput"
         />
+        <a
+          v-if="figmalink"
+          :href="figmalink"
+          target="_blank"
+          class="border-0 border-gray-400 border-r btn btn--tertiary btn--xs cursor-pointer inline-block"
+          @click="openInFigma"
+        >
+          Open in Figma
+        </a>
         <span
           class="border-0 border-gray-400 border-r btn btn--tertiary btn--xs cursor-pointer inline-block"
           @click="openInLoader"
@@ -57,6 +66,9 @@ export default {
     lang: {
       type: String,
       default: "HTML"
+    },
+    figmalink: {
+      type: String
     }
   },
   methods: {

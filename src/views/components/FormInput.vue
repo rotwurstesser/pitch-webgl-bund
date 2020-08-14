@@ -17,7 +17,10 @@
       As Inputs can be disabled, invalid and more we provide different states
       out of the box
     </p>
-    <code-loader lang="html">
+    <code-loader
+      figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=388%3A4620"
+      lang="html"
+    >
       <form>
         <form-input
           class="dsb-input--focus mb-5"
@@ -39,7 +42,10 @@
       Text Inputs can be used with icons. We suggest using these inputs as
       search to navigate large amounts of complex content.
     </p>
-    <code-loader lang="html">
+    <code-loader
+      figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=385%3A0"
+      lang="html"
+    >
       <form>
         <form-input
           :label-hidden="true"
