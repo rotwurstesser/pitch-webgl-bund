@@ -1,7 +1,12 @@
 <template>
   <div class="space-y-6">
     <h1 class="font-bold mb-16">Info box component</h1>
-
+    <p>
+      Boxes are mostly used for presenting shorter, article like, content
+      segments. Like posts. They can also be used to highlight content inside of
+      larger pages and guiding the users attention. Note that not more than one
+      box should be used per page.
+    </p>
     <code-loader
       figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=191%3A4281"
       lang="html"
