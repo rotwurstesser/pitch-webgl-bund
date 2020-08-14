@@ -10,7 +10,7 @@
         The theme.spacing section of your tailwind.config.js file allows you to
         override Tailwind's default spacing/sizing scale.
       </p>
-      <prism lang="js">{{ code }}</prism>
+      <prism language="javascript">{{ code }}</prism>
       <p>
         By default the spacing scale is shared by the padding, margin, width,
         and height utilities so the above configuration would generate classes
@@ -25,7 +25,7 @@
         default spacing scale, you can do so using the theme.spacing section of
         your tailwind.config.js file:
       </p>
-      <prism lang="js">{{ code_override }}</prism>
+      <prism language="javascript">{{ code_override }}</prism>
       <p>
         This will disable Tailwind's default spacing scale and generate classes
         like p-sm, m-md, w-lg, and h-xl instead.
@@ -39,7 +39,7 @@
         default spacing scale, you can do so using the theme.extend.spacing
         section of your tailwind.config.js file:
       </p>
-      <prism lang="js">{{ code_extend }}</prism>
+      <prism language="javascript">{{ code_extend }}</prism>
       <p>
         This will generate classes like p-72, m-84, and h-96 in addition to all
         of Tailwind's default spacing/sizing utilities.
@@ -333,7 +333,7 @@ const code_override = `// tailwind.config.js
     }
   }`;
 
-const code_extend = `/ tailwind.config.js
+const code_extend = `// tailwind.config.js
   module.exports = {
     theme: {
       extend: {
