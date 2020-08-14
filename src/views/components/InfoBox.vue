@@ -59,6 +59,32 @@
         </p>
       </info-box>
     </code-loader>
+    <h2 class="mx-5">Infoboxes as success</h2>
+    <p>
+      Info boxes can also be used to guide a users attention to success messages
+      surfacing from the system.
+    </p>
+    <code-loader
+      figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=400%3A0"
+      lang="html"
+    >
+      <info-box class="info-box--success">
+        <p class="font-bold mb-4">
+          Maximilian.mustermensch@eda.ch erfolgreich freigegeben!
+        </p>
+        <p class="mb-8">
+          User: <br />
+          <span class="font-bold">
+            Maximilian Mustermensch | Maximilian.mustermensch@eda.ch</span
+          >
+          <br />
+          konnte sich nun einloggen
+        </p>
+        <p class="mb-8">
+          Wir haben den Benutzer benachrichtigt
+        </p>
+      </info-box>
+    </code-loader>
   </div>
 </template>
 
