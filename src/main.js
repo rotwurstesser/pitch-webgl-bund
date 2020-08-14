@@ -7,12 +7,14 @@ import CodeLoader from "@/components/CodeLoader.vue";
 import Prism from "vue-prism-component";
 import "prismjs";
 import SVGIcon from "@/components/SVGIcon";
+import Btn from "@/components/Btn";
 import "prismjs/themes/prism.css";
 import "prismjs/components/prism-bash";
 Vue.config.productionTip = false;
 Vue.component("code-loader", CodeLoader);
 Vue.component("prism", Prism);
 Vue.component("svg-icon", SVGIcon);
+Vue.component("btn", Btn);
 
 new Vue({
   router,

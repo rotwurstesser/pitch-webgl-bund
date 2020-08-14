@@ -85,7 +85,7 @@
           </nav>
         </div>
       </div>
-      <main class="lg:text-lg flex flex-col w-0 flex-1 p-8">
+      <main class="lg:text-lg flex flex-col w-0 flex-1 px-8 py-16">
         <router-view name="main" />
       </main>
     </div>

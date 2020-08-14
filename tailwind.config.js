@@ -241,7 +241,7 @@ module.exports = {
       default: "1"
     },
     fontFamily: {
-      sans: ["Suisse Sign", "Inter var", ...defaultTheme.fontFamily.sans],
+      sans: ["Suisse Sign", "FrutigerNext", "Frutiger", "Inter var", ...defaultTheme.fontFamily.sans],
       serif: ["Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
       mono: [
         "Menlo",
@@ -264,8 +264,8 @@ module.exports = {
       "5xl": ["3rem", "1.25"]
     },
     fontWeight: {
-      light: "300",
-      normal: "400",
+      light: "200",
+      normal: "300",
       medium: "500",
       bold: "700"
     },
