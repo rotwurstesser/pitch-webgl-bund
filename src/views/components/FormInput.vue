@@ -3,7 +3,9 @@
     <h1 class="font-bold mb-16">Text Input</h1>
     <p>
       Text Inputs are there to catch a small amount of data from users, if you
-      expect larger amounts of data use a Textarea
+      expect larger amounts of data use a Textarea. Keep in mind to always use a
+      label even if its not visible, for accessibility reasons. You can hide it
+      as in the example "Input with icon" below.
     </p>
     <code-loader lang="html">
       <form>
@@ -34,10 +36,8 @@
 
     <h2 class="my-5">Input with icon</h2>
     <p>
-      Text Inputs can be used with icons. Keep in mind to always use a label
-      even if its not visible, for accessibility reasons. You can hide it as in
-      the example below. We suggest using these inputs as search to navigate
-      large amounts of complex content.
+      Text Inputs can be used with icons. We suggest using these inputs as
+      search to navigate large amounts of complex content.
     </p>
     <code-loader lang="html">
       <form>
