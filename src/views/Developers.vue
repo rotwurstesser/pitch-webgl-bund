@@ -1,3 +1,4 @@
+<!-- eslint-disable prettier/prettier  -->
 <template>
   <div>
     <h1 class="font-bold mb-16">Developers</h1>
@@ -30,19 +31,34 @@
       reference the assets <br />
     </p>
     <h3 class="my-5">Fonts</h3>
-    <prism class="commented-text" language="bash">
-      https://cdnjs.com/swiss-styleguide-assets/font.css
+    <prism class="commented-text" language="html">
+      {{linkfonts}}
     </prism>
     <h3 class="my-5">Icons</h3>
-    <prism class="commented-text" language="bash">
-      https://cdnjs.com/swiss-styleguide-assets/icons/[ICONAME].svg
+    <prism class="commented-text" language="html">
+      {{linkIcons}}
     </prism>
     <h3 class="my-5">Styleguide</h3>
-    <prism class="commented-text" language="bash">
-      https://cdnjs.com/swiss-styleguide
+    <prism class="commented-text" language="html">
+      {{linkBase}}
     </prism>
   </div>
 </template>
+<script>
+export default {
+  computed: {
+    linkfonts() {
+      return "<link rel='stylesheet' href='https://cdnjs.com/swiss-styleguide-assets/font.css'/>";
+    },
+    linkIcons() {
+      return "<link rel='stylesheet' href='https://cdnjs.com/swiss-styleguide-assets/[ICONAME].svg'/>";
+    },
+    linkBase() {
+      return "<link rel='stylesheet' href='https://cdnjs.com/swiss-styleguide'/>";
+    }
+  }
+};
+</script>
 <style>
 .commented-text {
   margin-top: -20px;
