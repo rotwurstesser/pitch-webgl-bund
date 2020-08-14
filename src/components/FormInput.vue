@@ -1,10 +1,19 @@
 <template>
   <div class="dsb-form-field">
-    <label v-if="label">{{label}}</label>
+    <label
+      :class="[labelHidden ? `sr-only` : '']"
+      :for="randomlabelId"
+      v-if="label"
+      >{{ label }}</label
+    >
     <input
+      :id="randomlabelId"
       type="text"
       class="dsb-input"
-      :class="[size ? `dsb-input--${size}` : '', variant ? `dsb-input--${variant}` : '']"
+      :class="[
+        size ? `dsb-input--${size}` : '',
+        variant ? `dsb-input--${variant}` : ''
+      ]"
       :placeholder="[placeholder ? `${placeholder}` : '']"
     />
     <svg-icon v-if="icon" name="search" />
@@ -19,6 +28,10 @@ export default {
       type: String,
       validator: prop => ["small", "large"].includes(prop)
     },
+    labelHidden: {
+      type: Boolean,
+      default: false
+    },
     variant: {
       type: String,
       validator: prop => ["icon"].includes(prop)
@@ -31,6 +44,11 @@ export default {
     },
     icon: {
       type: String
+    }
+  },
+  computed: {
+    randomlabelId() {
+      return "label--" + Math.floor(Math.random() * 6) + 1;
     }
   }
 };

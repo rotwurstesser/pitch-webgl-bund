@@ -4,7 +4,6 @@ import router from "./router";
 import store from "./store";
 import "./assets/css/main.postcss";
 import CodeLoader from "@/components/CodeLoader.vue";
-import "./plugins/axe.js";
 import Prism from "vue-prism-component";
 import "prismjs";
 import SVGIcon from "@/components/SVGIcon";
