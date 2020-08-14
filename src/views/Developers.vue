@@ -10,7 +10,7 @@
       If you would like to start using the system you have two options:
     </p>
     <info-box class="my-8">
-      <p>These Things are not available in this prototype and it are an example of how the documentation could look like</p>
+      <p>These commands and cdn-links are not available in this prototype and it are an example of how the documentation could look like</p>
     </info-box>
     <h2 class="my-5">Install the Design System via npm</h2>
     <p>
