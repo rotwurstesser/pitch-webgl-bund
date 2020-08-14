@@ -1,9 +1,16 @@
 <template>
   <div>
-    <main-navi-part />
     <div class="mt-8">
+      <div class="mt-1 space-y-1" role="group" aria-labelledby="atoms-headline">
+        <router-link
+          to="/components/"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+        >
+          Introduction
+        </router-link>
+      </div>
       <h3
-        class="px-3 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
+        class="mt-10 px-2 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
         id="atoms-headline"
       >
         Design Tokens
@@ -11,40 +18,40 @@
       <div class="mt-1 space-y-1" role="group" aria-labelledby="atoms-headline">
         <router-link
           to="/components/headings"
-          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Headings
         </router-link>
         <router-link
           to="/components/colors"
-          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Colors
         </router-link>
         <router-link
           to="/components/spacings"
-          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Spacings
         </router-link>
         <router-link
           to="/components/grid"
-          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Grid
         </router-link>
         <router-link
           to="/components/icons"
-          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Icons
         </router-link>
       </div>
     </div>
 
-    <div class="mt-8">
+    <div class="mt-10">
       <h3
-        class="px-3 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
+        class="px-2 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
         id="cells-headline"
       >
         Cells
@@ -52,19 +59,19 @@
       <div class="mt-1 space-y-1" role="group" aria-labelledby="cells-headline">
         <router-link
           to="/components/cards"
-          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Cards
         </router-link>
         <router-link
           to="/components/buttons"
-          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Buttons
         </router-link>
         <router-link
           to="/components/lists"
-          class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Lists
         </router-link>
@@ -72,8 +79,3 @@
     </div>
   </div>
 </template>
-<script>
-import MainNaviPart from "../components/mainNaviPart.vue";
-
-export default { components: { MainNaviPart } };
-</script>

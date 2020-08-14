@@ -39,26 +39,6 @@
       </svg>
       Developers
     </router-link>
-
-    <router-link
-      to="/accessibility"
-      class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
-    >
-      <svg
-        class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-        />
-      </svg>
-      Accessibility
-    </router-link>
   </div>
 </template>
 

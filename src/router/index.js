@@ -8,7 +8,8 @@ const routes = [
     path: "/",
     name: "Home",
     components: {
-      main: () => import("../views/Home.vue")
+      main: () => import("../views/Home.vue"),
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
     }
   },
   {
@@ -99,14 +100,6 @@ const routes = [
     }
   },
   {
-    path: "/get-started",
-    name: "GetStarted",
-    components: {
-      main: () => import("../views/GetStarted.vue"),
-      sidebar: () => import("../views/menus/GetStartedMenu.vue")
-    }
-  },
-  {
     path: "/component-detail",
     name: "ComponentDetail",
     components: {
@@ -127,7 +120,7 @@ const routes = [
     name: "Developers",
     components: {
       main: () => import("../views/Developers.vue"),
-      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
     }
   },
   ///////////////////////////////////////////////////////////////
@@ -138,23 +131,7 @@ const routes = [
     name: "Designers",
     components: {
       main: () => import("../views/Designers.vue"),
-      sidebar: () => import("../views/menus/DesignMenu.vue")
-    }
-  },
-  {
-    path: "/design/icons",
-    name: "DesignIcons",
-    components: {
-      main: () => import("../views/design/Icons.vue"),
-      sidebar: () => import("../views/menus/DesignMenu.vue")
-    }
-  },
-  {
-    path: "/design/box",
-    name: "DesignBox",
-    components: {
-      main: () => import("../views/design/Box.vue"),
-      sidebar: () => import("../views/menus/DesignMenu.vue")
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
     }
   }
 ];
