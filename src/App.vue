@@ -40,9 +40,9 @@
     </header>
     <div class="h-screen flex bg-white">
       <!-- Off-canvas menu for mobile -->
-      <div class="lg:hidden">
+      <!--div class="lg:hidden">
         Mobile menu here
-      </div>
+      </div-->
       <!-- Static sidebar for desktop -->
       <div class="sidebar hidden lg:flex lg:flex-shrink-0">
         <div
