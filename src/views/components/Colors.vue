@@ -8,13 +8,13 @@
       <div
         v-for="color in Object.keys(colors[colorName])"
         :key="color"
-        class="flex flex-col items-center mb-4 mr-4 border border-gray-200 "
+        class="flex flex-col items-center mb-4 mr-4"
       >
         <div
-          class="w-32 h-32 border-gray-200"
+          class="w-24 h-24 "
           :class="'bg-' + colorName + '-' + color"
         />
-        <code class="p-4 text-sm">
+        <code class="py-3 text-xs">
           {{ colorName + "-" + color }}
         </code>
       </div>
