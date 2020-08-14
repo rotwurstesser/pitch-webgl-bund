@@ -2,7 +2,8 @@
   <div class="space-y-6">
     <h1 class="font-bold mb-16">Lists</h1>
     <p>
-      Lists are important to bundle information and deliever it
+      Lists let the user browse and interact with a continuous, vertical
+      collection of items containing text, icons, and/or images among others.
     </p>
     <code-loader lang="html">
       <ul>
@@ -13,8 +14,8 @@
       </ul>
     </code-loader>
     <p>
-      With the use of icons Lists can be accentuated it is recommended to use
-      the Arrow icon for this
+      With the use of icons Lists can be accentuated. It is recommended to use
+      the Arrow icon for this.
     </p>
     <code-loader lang="html">
       <ul>
