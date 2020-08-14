@@ -7,10 +7,7 @@
     </p>
     <code-loader lang="html">
       <form>
-        <div class="mb-16">
-          <p>Basic input</p>
-          <form-input label="label"></form-input>
-        </div>
+        <form-input label="First name"></form-input>
       </form>
     </code-loader>
     <p>

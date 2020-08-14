@@ -1,6 +1,7 @@
 <template>
   <div class="dsb-form-field">
     <label
+      class="dsb-label"
       :class="[labelHidden ? `sr-only` : '']"
       :for="randomlabelId"
       v-if="label"
