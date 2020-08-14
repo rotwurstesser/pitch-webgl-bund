@@ -23,16 +23,16 @@
           </svg>
         </div>
         <div class="hidden lg:block">
-          <router-link to="/" class="no-underline h-100 p-8">
+          <router-link to="/" class="font-bold no-underline h-100 p-8">
             Get started
           </router-link>
-          <router-link to="/guidelines" class="no-underline h-100 p-8">
+          <router-link to="/guidelines" class="font-bold no-underline h-100 p-8">
             Guidelines
           </router-link>
-          <router-link to="/components" class="no-underline h-100 p-8">
+          <router-link to="/components" class="font-bold no-underline h-100 p-8">
             Components
           </router-link>
-          <router-link to="/examples" class="no-underline h-100 p-8">
+          <router-link to="/examples" class="font-bold no-underline h-100 p-8">
             Examples
           </router-link>
         </div>

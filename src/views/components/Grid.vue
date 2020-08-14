@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6">
-    <h1>Grid</h1>
+    <h1 class="font-bold mb-16">Grid</h1>
     A Grid is really cool to do so many things! We use css Grid
     <code-loader lang="html">
       <div class="grid grids-col-2 md:grid-cols-4 gap-4">

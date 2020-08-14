@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6">
-    <h1>Lists</h1>
+    <h1 class="font-bold mb-16">Lists</h1>
     <p>
       Lists are important to bundle information and deliever it
     </p>

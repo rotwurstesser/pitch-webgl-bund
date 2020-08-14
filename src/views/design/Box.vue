@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6 max-w-4xl">
-    <h1>Box</h1>
+    <h1 class="font-bold mb-16">Box</h1>
     <p>
       Boxes help to accentuate content, to use this Element click on the
       <svg-icon class="mx-2 stroke-2 inline-block" name="figma" /> icon

@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6">
-    <h1>Card components</h1>
+    <h1 class="font-bold mb-16">Card components</h1>
 
     <code-loader lang="html">
       <card class="space-y-6 ">

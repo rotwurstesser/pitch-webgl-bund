@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6">
-    <h1>Buttons</h1>
+    <h1 class="font-bold mb-16">Buttons</h1>
     <code-loader lang="html">
       <div class="flex space-x-4">
         <btn variant="primary" size="large">

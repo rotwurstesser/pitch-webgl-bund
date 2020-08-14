@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mb-16">Designers</h1>
+    <h1 class="font-bold mb-16">Designers</h1>
     <h2 class="mb-12">
       In order to get started with our Design System, make sure you have a Figma
       Account. In the Sidebar you can find all our Elements ready to use.

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Guidelines</h1>
+    <h1 class="font-bold mb-16">Guidelines</h1>
     <h2>Logotype</h2>
     <p>
       The logotype consists of two parts, the wordmark "schweizerische

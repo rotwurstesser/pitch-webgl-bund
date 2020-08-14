@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Developers</h1>
+    <h1 class="font-bold mb-16">Developers</h1>
     <p>
       The Design System provides front-end developers & engineers a collection
       of reusable HTML and CSS classes, as well ass Guidance on how to use them

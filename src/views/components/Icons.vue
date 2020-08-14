@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6 max-w-4xl icons">
-    <h1>Icons</h1>
+    <h1 class="font-bold mb-16">Icons</h1>
     <p>
       Icons are the bomb
     </p>
