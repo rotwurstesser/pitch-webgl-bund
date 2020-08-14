@@ -36,6 +36,15 @@
       See the coded page
     </span>
     <h2 class="mt-16 mb-4">Webdesign - LOVELIFE</h2>
+    <p class="my-5">
+      With the flexibility provided by the Design System it is possible to
+      provide different experiences for different brands.
+      <br />
+
+      <btn class="cursor-not-allowed " variant="link">
+        Learn how configure the setting
+      </btn>
+    </p>
     <div class="p-8 bg-gray-200 flex justify-center">
       <img class="max-w-screen-sm" src="@/assets/lovelife.png" />
     </div>
