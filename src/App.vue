@@ -5,7 +5,10 @@
         class="flex items-center justify-between px-6 border-b border-gray-400"
       >
         <router-link to="/" class="ml-0">
-          <svg-icon name="logo" class="h-24 my-4 w-auto fill-current" />
+          <svg-icon
+            name="logo"
+            class="fill-current h-24 mt-10 svg-icon svg-icon--logo w-auto"
+          />
         </router-link>
         <div class="lg:hidden">
           <svg
