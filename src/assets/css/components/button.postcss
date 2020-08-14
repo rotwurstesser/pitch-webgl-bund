@@ -4,8 +4,12 @@
 
 .btn {
   @apply inline-flex items-center px-4 py-2;
-  @apply text-gray-700 font-medium no-underline;
+  @apply font-medium no-underline;
   @apply border border-transparent rounded-sm;
+
+  &:hover {
+    @apply text-red-600;
+  }
 
   &:focus {
     @apply outline-none shadow-outline;
@@ -34,6 +38,11 @@
 /**
 * Styles
 */
+
+.btn--link {
+  @apply flex pl-0 pr-2 font-bold;
+}
+
 .btn--primary {
   @apply bg-blue-700 border-blue-800 text-white;
 

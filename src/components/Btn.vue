@@ -3,6 +3,7 @@
     class="btn"
     :class="[size ? `btn--${size}` : '', variant ? `btn--${variant}` : '']"
   >
+    <svg-icon v-if="variant == `link`" class="h-8 w-8 mr-2" name="arrow" />
     <slot></slot>
   </button>
 </template>
@@ -17,7 +18,7 @@ export default {
     },
     variant: {
       type: String,
-      validator: prop => ["default", "primary", "secondary"].includes(prop)
+      validator: prop => ["default", "primary", "secondary", "link"].includes(prop)
     }
   }
 };
