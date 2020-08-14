@@ -4,6 +4,7 @@ let selectorWhiteListArray = [];
 selectorWhiteListArray.push(/^language-/);
 selectorWhiteListArray.push(/^pre/);
 selectorWhiteListArray.push(/^token/);
+// eslint-disable-next-line no-unused-vars
 const purgecss = require("@fullhuman/postcss-purgecss")({
   // Specify the paths to all of the template files in your project
   content: [

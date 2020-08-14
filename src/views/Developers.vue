@@ -10,7 +10,7 @@
       If you would like to start using the system you have two options:
     </p>
     <info-box class="my-8">
-      <p>These commands and cdn-links are not available in this prototype and it are an example of how the documentation could look like</p>
+      <p>These elements are unavailable in this prototype. It’s only an example of how the documentation could look like.</p>
     </info-box>
     <h2 class="my-5">Install the Design System via npm</h2>
     <p>
@@ -37,12 +37,51 @@
     <prism class="commented-text" language="html">
       {{ linkBase }}
     </prism>
+    <br />
+    <div class="grid grid-col lg:grid-cols-2 gap-6 pt-10">
+      <div class="grid__item">
+        <card class="space-y-6 h-full">
+          <h2 class="mb-6">
+            Guidelines
+          </h2>
+          <p>
+            Before you start working please take a look at the Guidelines to ensure you have an understanding of the rules governing the Swiss Styleguide and its Brand.
+          </p>
+          <template v-slot:footer>
+            <router-link to="/guidelines">
+              <btn variant="primary" size="large">
+                Guidelines
+              </btn>
+            </router-link>
+          </template>
+        </card>
+      </div>
+      <div class="grid__item">
+        <card class="space-y-6 h-full">
+          <h2 class="mb-6">
+            Components
+          </h2>
+          <p>
+            As a developer you might be interested in prototyping or starting to build an application for the Bund or an organization close to the Bund. By using the provided styles, assets and markup you can ensure a unified product and reduce tech debt.
+          </p>
+          <template v-slot:footer>
+            <router-link to="/components">
+              <btn variant="primary" size="large">
+                Start as a developer
+              </btn>
+            </router-link>
+          </template>
+        </card>
+      </div>
+    </div>
   </div>
 </template>
 <script>
+import Btn from "../components/Btn.vue";
+import Card from "../components/Card.vue";
 import InfoBox from "../components/InfoBox.vue";
 export default {
-  components: { InfoBox },
+  components: { InfoBox, Card, Btn },
   computed: {
     linkfonts() {
       return "<link rel='stylesheet' href='https://cdnjs.com/swiss-styleguide-assets/font.css'/>";

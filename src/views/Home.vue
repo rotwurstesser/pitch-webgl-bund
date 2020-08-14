@@ -19,7 +19,12 @@
             Informations for designers
           </h2>
           <p>
-            [Description here: what will designers find there]
+            As a Designer you might be interested in designing or prototyping a
+            website or application. We suggest you use the provided assets of
+            this Design System.It aims to reduce current Design Debt,
+            accelerates the design process, and builds bridges between teams
+            working in concert to bring unified products to life within set
+            brand.
           </p>
           <template v-slot:footer>
             <btn
@@ -38,7 +43,10 @@
             Informations for developers
           </h2>
           <p>
-            [Description here: what will developers find there sdfsdffdfs]
+            As a developer you might be interested in prototyping or starting to
+            build an application for the Bund or an organization close to the
+            Bund. By using the provided styles, assets and markup you can ensure
+            a unified product and reduce tech debt.
           </p>
           <template v-slot:footer>
             <btn
@@ -49,7 +57,6 @@
               Start as a developer
             </btn>
           </template>
-
         </card>
       </div>
     </div>

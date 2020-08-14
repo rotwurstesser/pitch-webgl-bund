@@ -1,6 +1,10 @@
 <template>
   <div>
     <h1 class="font-bold mb-16">Guidelines</h1>
+    <p>
+      These elements are unavailable in this prototype. It’s only an example of
+      how the documentation could look like.
+    </p>
     <h2>Logotype</h2>
     <p>
       The logotype consists of two parts, the wordmark "schweizerische
