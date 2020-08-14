@@ -8,9 +8,10 @@
       Swiss confederation services, websites and applications.
     </h2>
     <p>
-      Use this design system to keep consistency with the digital services of
-      the Swiss Administration. Avoid repeating design or development work
-      that’s already been done.
+      This design system aims to deliver a comprehensive list and documentation
+      of all elements governing the design of the Swiss Confederation. Use it to
+      keep consistency with the digital services of the Swiss Administration.
+      Avoid repeating design or development work that’s already been done.
     </p>
     <div class="grid grid-col lg:grid-cols-2 gap-6 pt-10">
       <div class="grid__item">
