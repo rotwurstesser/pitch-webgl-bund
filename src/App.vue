@@ -9,7 +9,7 @@
         </router-link>
         <div class="lg:hidden">
           <svg
-            class="mr-3 h-8 w-8 text-gray-800 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150"
+            class="mr-3 h-8 w-8 text-red-700 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -85,7 +85,7 @@
           </nav>
         </div>
       </div>
-      <main class="lg:text-lg flex flex-col w-0 flex-1 px-8 py-16 max-w-5xl">
+      <main class="lg:text-lg flex flex-col w-0 flex-1 px-8 py-16 max-w-5xl ">
         <router-view name="main" />
       </main>
     </div>
