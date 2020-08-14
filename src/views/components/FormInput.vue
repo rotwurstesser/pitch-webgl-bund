@@ -1,20 +1,43 @@
 <template>
   <div class="space-y-6">
-    <h1 class="font-bold mb-16">Input</h1>
+    <h1 class="font-bold mb-16">Text Input</h1>
     <p>
-      Inputs are there to catch data from Users, if you except more data then
-      please use a Textbox component
+      Text Inputs are there to catch a small amount of data from users, if you
+      expect larger amounts of data use a Textarea
     </p>
     <code-loader lang="html">
       <form>
         <form-input label="First name"></form-input>
       </form>
     </code-loader>
+    <h2 class="my-5">Input States</h2>
     <p>
-      Inputs can be used with icons, they are especially useful to search
-      content which is an important navigation element on the pages of the bund.
-      Keep in mind to always use a label even if its not visible, for
-      accessibility reasons, you can hide it as in the example below
+      As Inputs can be disabled, invalid and more we provide different states
+      out of the box
+    </p>
+    <code-loader lang="html">
+      <form>
+        <form-input
+          class="dsb-input--focus mb-5"
+          label="Focused Input"
+        ></form-input>
+        <form-input
+          class="dsb-input--error mb-5"
+          label="Error in the input"
+        ></form-input>
+        <form-input
+          class="dsb-input--disabled  mb-5"
+          label="Disabled input"
+        ></form-input>
+      </form>
+    </code-loader>
+
+    <h2 class="my-5">Input with icon</h2>
+    <p>
+      Text Inputs can be used with icons. Keep in mind to always use a label
+      even if its not visible, for accessibility reasons. You can hide it as in
+      the example below. We suggest using these inputs as search to navigate
+      large amounts of complex content.
     </p>
     <code-loader lang="html">
       <form>

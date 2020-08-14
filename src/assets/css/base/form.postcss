@@ -37,10 +37,24 @@ label > span {
   height: 2rem;
 }
 
-.dsb-input:focus {
-  outline: 0;
+.dsb-input--focus input,
+.dsb-input:focus  input{
+  outline:none;
+  @apply shadow-outline
 }
 
 .dsb-label {
   display: block
+}
+
+.dsb-input--error input{
+  @apply bg-red-200
+}
+
+.dsb-input--disabled {
+ @apply border-gray-600
+}
+
+.dsb-input--disabled input {
+    @apply bg-gray-200
 }
