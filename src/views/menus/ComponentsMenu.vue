@@ -54,7 +54,7 @@
         class="px-2 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
         id="cells-headline"
       >
-        Cells
+        Components
       </h3>
       <div class="mt-1 space-y-1" role="group" aria-labelledby="cells-headline">
         <router-link
@@ -80,6 +80,12 @@
           class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Input
+        </router-link>
+        <router-link
+          to="/components/infobox"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-900 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+        >
+          Infobox
         </router-link>
       </div>
     </div>
