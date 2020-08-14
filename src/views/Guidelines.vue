@@ -1,10 +1,13 @@
 <template>
   <div>
     <h1 class="font-bold mb-16">Guidelines</h1>
-    <p>
-      These elements are unavailable in this prototype. It’s only an example of
-      how the documentation could look like.
-    </p>
+    <info-box class="my-8">
+      <p>
+        These elements might not be fully available in this prototype. The
+        Elements below serve as an example of how the documentation would look
+        like.
+      </p>
+    </info-box>
     <h2>Logotype</h2>
     <p>
       The logotype consists of two parts, the wordmark "schweizerische
@@ -15,3 +18,7 @@
     </p>
   </div>
 </template>
+<script>
+import InfoBox from "../components/InfoBox.vue";
+export default { components: { InfoBox } };
+</script>
