@@ -87,7 +87,7 @@ export default {
       return "<link rel='stylesheet' href='https://cdnjs.com/swiss-styleguide-assets/font.css'/>";
     },
     linkIcons() {
-      return "<link rel='stylesheet' href='https://cdnjs.com/swiss-styleguide-assets/[ICONAME].svg'/>";
+      return "<link rel='stylesheet' href='https://cdnjs.com/swiss-styleguide-assets/[ICONNAME].svg'/>";
     },
     linkBase() {
       return "<link rel='stylesheet' href='https://cdnjs.com/swiss-styleguide'/>";
