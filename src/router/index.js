@@ -93,6 +93,14 @@ const routes = [
     }
   },
   {
+    path: "/components/input",
+    name: "ComponentsInput",
+    components: {
+      main: () => import("../views/components/FormInput.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
     path: "/examples",
     name: "Examples",
     components: {
