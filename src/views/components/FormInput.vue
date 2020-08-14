@@ -1,5 +1,5 @@
 <template>
-  <div class="space-y-6">
+  <div class="space-y-6 mb-24">
     <h1 class="font-bold mb-16">Text Input</h1>
     <p>
       Text Inputs are there to catch a small amount of data from users, if you
@@ -7,7 +7,10 @@
       label even if its not visible, for accessibility reasons. You can hide it
       as in the example "Input with icon" below.
     </p>
-    <code-loader lang="html">
+    <code-loader
+      figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=385%3A169"
+      lang="html"
+    >
       <form>
         <form-input label="First name"></form-input>
       </form>
@@ -17,7 +20,10 @@
       As Inputs can be disabled, invalid and more we provide different states
       out of the box
     </p>
-    <code-loader lang="html">
+    <code-loader
+      figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=388%3A4620"
+      lang="html"
+    >
       <form>
         <form-input
           class="dsb-input--focus mb-5"
@@ -39,7 +45,10 @@
       Text Inputs can be used with icons. We suggest using these inputs as
       search to navigate large amounts of complex content.
     </p>
-    <code-loader lang="html">
+    <code-loader
+      figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=385%3A0"
+      lang="html"
+    >
       <form>
         <form-input
           :label-hidden="true"
