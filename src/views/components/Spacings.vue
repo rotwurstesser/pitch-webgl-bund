@@ -3,7 +3,7 @@
     <div class="space-y-6">
       <h2>Spacing scale</h2>
       <p>
-        By default, Tailwind includes a generous and comprehensive numeric
+        By default, the Styleguide includes a generous and comprehensive numeric
         spacing scale. The values are proportional, so 16 is twice as much
         spacing as 8 for example. One spacing unit is equal to 0.25rem, which
         translates to 4px by default in common browsers.
@@ -177,47 +177,56 @@
       </table>
 
       <h2>Customizing Spacing</h2>
-      <p class="text-gray-500 mb-8">Customizing the default spacing scale for your project.</p>
+      <p class="text-gray-500 mb-8">
+        Customizing the default spacing scale for your project.
+      </p>
 
-      <hr/>
+      <hr />
 
       <p>
-        The theme.spacing section of your tailwind.config.js file allows you to
-        override Tailwind's default spacing/sizing scale.
+        In some cases, for example when building a website which is not conform
+        with the default Swiss Confederacy design you might need different
+        Spacings. The theme.spacing section of your tailwind.config.js file
+        allows you to override Tailwind's default spacing/sizing scale.
       </p>
       <prism language="javascript">{{ code }}</prism>
       <p>
         By default the spacing scale is shared by the padding, margin, width,
         and height utilities so the above configuration would generate classes
-        like <code>.p-2</code>, <code>.mt-3</code>, <code>.w-5</code>, <code>.h-6</code>, ...etc.
+        like <code>.p-2</code>, <code>.mt-3</code>, <code>.w-5</code>,
+        <code>.h-6</code>, ...etc.
       </p>
 
-      <hr/>
+      <hr />
 
       <h3>Overriding the default spacing scale</h3>
       <p>
         As described in the theme documentation, if you'd like to override the
-        default spacing scale, you can do so using the <code>theme.spacing</code> section of
-        your <code>tailwind.config.js</code> file:
+        default spacing scale, you can do so using the
+        <code>theme.spacing</code> section of your
+        <code>tailwind.config.js</code> file:
       </p>
       <prism language="javascript">{{ code_override }}</prism>
       <p>
         This will disable Tailwind's default spacing scale and generate classes
-        like <code>.p-sm</code>, <code>.m-md</code>, <code>.w-lg</code> and <code>.h-xl</code> instead.
+        like <code>.p-sm</code>, <code>.m-md</code>, <code>.w-lg</code> and
+        <code>.h-xl</code> instead.
       </p>
 
-      <hr/>
+      <hr />
 
       <h3>Extending the default spacing scale</h3>
       <p>
         As described in the theme documentation, if you'd like to extend the
-        default spacing scale, you can do so using the <code>theme.extend.spacing</code>
-        section of your <code>tailwind.config.js</code> file:
+        default spacing scale, you can do so using the
+        <code>theme.extend.spacing</code> section of your
+        <code>tailwind.config.js</code> file:
       </p>
       <prism language="javascript">{{ code_extend }}</prism>
       <p>
-        This will generate classes like <code>.p-72</code>, <code>.m-84</code> and <code>.h-96</code> in addition to all
-        of Tailwind's default spacing/sizing utilities.
+        This will generate classes like <code>.p-72</code>,
+        <code>.m-84</code> and <code>.h-96</code> in addition to all of
+        Tailwind's default spacing/sizing utilities.
       </p>
     </div>
   </div>

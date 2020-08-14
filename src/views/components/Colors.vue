@@ -1,8 +1,15 @@
 <template>
   <div class="space-y-6">
     <h2>Default color palette</h2>
-    <p>Tailwind includes a generous palette of great-looking, well-balanced colors that are perfect for prototyping or for kicking off a brand new project.</p>
-    <div v-for="(colorName, index) in Object.keys(colors)" :key="index" class="flex flex-wrap">
+    <p>
+      The Styleguide includes a generous palette of well-balanced, hand-picked
+      colors that are meant for kicking off any new project.
+    </p>
+    <div
+      v-for="(colorName, index) in Object.keys(colors)"
+      :key="index"
+      class="flex flex-wrap"
+    >
       <div
         v-for="color in Object.keys(colors[colorName])"
         :key="color"
@@ -14,7 +21,12 @@
     </div>
 
     <h2>Customizing Colors</h2>
-    <p class="mt-0 mb-4 text-gray-600">Customizing the default color palette for your project.</p>
+    <p class="mt-0 mb-4 text-gray-600">
+      In some cases, for example when building a website which is not conform
+      with the default Swiss Confederacy design you might need new colors. If
+      your project needs other colors you can easily add those by cloning the
+      project and adapting the config.
+    </p>
 
     <hr />
 
@@ -27,19 +39,18 @@
     <prism language="javascript">{{ code }}</prism>
     <p>
       By default these colors are automatically shared by the
-      <code>textColor</code>,
-      <code>borderColor</code>, and
-      <code>backgroundColor</code> utilities, so the above configuration would generate classes like
-      <code>.text-indigo</code>,
-      <code>.border-blue</code>, and
-      <code>.bg-red</code>.
+      <code>textColor</code>, <code>borderColor</code>, and
+      <code>backgroundColor</code> utilities, so the above configuration would
+      generate classes like <code>.text-indigo</code>,
+      <code>.border-blue</code>, and <code>.bg-red</code>.
     </p>
 
     <hr />
 
     <h3>Overriding the default colors</h3>
     <p>
-      As described in the theme documentation, if you'd like to override the default color palette, you can do so using the
+      As described in the theme documentation, if you'd like to override the
+      default color palette, you can do so using the
       <code>theme.colors</code> section of your
       <code>tailwind.config.js</code> file:
     </p>
@@ -47,9 +58,9 @@
     <prism language="javascript">{{ code_override }}</prism>
 
     <p>
-      This will disable Tailwind's default color palette and generate classes like
-      <code>.bg-indigo</code>,
-      <code>.text-blue</code>, and
+      This will disable Tailwind's default color palette and generate classes
+      like
+      <code>.bg-indigo</code>, <code>.text-blue</code>, and
       <code>.border-red</code> instead.
     </p>
 
@@ -57,7 +68,8 @@
 
     <h3>Extending the default palette</h3>
     <p>
-      As described in the theme documentation, if you'd like to extend the default color palette, you can do so using the
+      As described in the theme documentation, if you'd like to extend the
+      default color palette, you can do so using the
       <code>theme.extend.colors</code> section of your
       <code>tailwind.config.js</code> file:
     </p>
@@ -66,7 +78,8 @@
 
     <p>
       This will generate classes like
-      <code>bg-regal-blue</code> in addition to all of Tailwind's default colors.
+      <code>bg-regal-blue</code> in addition to all of Tailwind's default
+      colors.
     </p>
   </div>
 </template>
@@ -116,7 +129,7 @@ export default {
       theme: mergedTailwind.theme,
       code: code,
       code_override: code_override,
-      code_extend: code_extend,
+      code_extend: code_extend
     };
   },
   computed: {
