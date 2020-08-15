@@ -2,7 +2,7 @@
   <div>
     <h1 class="font-bold mb-16">Information for Designers</h1>
     <h2 class="mb-12">
-      The Digital Design System of the Swiss Confederation provides guidelines, assets and starterkits for Designers. It helps you to quickly start a project with up-to-date design assets and examples.
+      The Digital Design System of the Swiss Confederation provides guidelines, up-to-date design assets and starterkits to Designers to quickly start a projet.
     </h2>
     <h3 class="h2 font-bold mb-4">Design tools</h3>
     <p class="mb-3">
@@ -11,11 +11,11 @@
     <btn variant="link">Open Figma Library</btn>
     <btn variant="link" class="mb-12">Download Sketch Library</btn>
 
-    <h3 class="h2 font-bold mb-4">Official fonts</h3>
+    <h3 class="h2 font-bold mb-4">Fonts usage</h3>
     <p class="mb-3">
-      The official font library is named “Swiss Sign”. To get started quickly, you can download the trial font family. For official projects, make a request for the official Swiss Sign package. You will receive to your address email the font files, a CDN link and an official license related to the domain name of your project.
+      The official font library is named “Swiss Sign”. To get started quickly, you can download the trial font family. For official projects, make a request for the official Swiss Sign package. Fullfill the form, and you will recieve the font files, a CDN link and an official license related to the domain name of your project on your email address.
     </p>
-    <btn variant="link">Download Swiss Sign Trial</btn>
+    <btn variant="link">Download Swiss Sign Trial version</btn>
     <btn variant="link" class="mb-12">Request official Swiss Sign package</btn>
   </div>
 </template>

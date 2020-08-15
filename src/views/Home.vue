@@ -20,12 +20,7 @@
             Informations for designers
           </h2>
           <p>
-            As a Designer you might be interested in designing or prototyping a
-            website or application. We suggest you use the provided assets of
-            this Design System.It aims to reduce current Design Debt,
-            accelerates the design process, and builds bridges between teams
-            working in concert to bring unified products to life within set
-            brand.
+            You are a designer and you want to create a service, a website or an application for the Swiss Confederation.
           </p>
           <template v-slot:footer>
             <btn
@@ -44,10 +39,7 @@
             Informations for developers
           </h2>
           <p>
-            As a developer you might be interested in prototyping or starting to
-            build an application for the Bund or an organization close to the
-            Bund. By using the provided styles, assets and markup you can ensure
-            a unified product and reduce tech debt.
+            You are a developer and you want to build a service, a website or an application for the Swiss Confederation.
           </p>
           <template v-slot:footer>
             <btn

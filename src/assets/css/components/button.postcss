@@ -40,11 +40,11 @@
 */
 
 .btn--link {
-  @apply flex pl-0 pr-2 font-bold;
+  @apply flex pl-0 pr-2 font-bold no-underline;
 }
 
 .btn--primary {
-  @apply bg-red-700 text-white;
+  @apply bg-red-700 text-white no-underline;
 
   &:hover:not(:disabled) {
     @apply bg-red-600 text-white;
@@ -60,7 +60,7 @@
 }
 
 .btn--secondary {
-  @apply text-blue-500 bg-white border-blue-500;
+  @apply text-blue-500 bg-white border-blue-500 no-underline;
 
   &:hover:not(:disabled),
   &:focus:not(:disabled) {
