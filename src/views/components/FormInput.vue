@@ -26,10 +26,6 @@
     >
       <form>
         <form-input
-          class="dsb-input--focus mb-5"
-          label="Focused Input"
-        ></form-input>
-        <form-input
           class="dsb-input--error mb-5"
           label="Error in the input"
         ></form-input>
