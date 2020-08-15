@@ -29,16 +29,10 @@
           <router-link to="/" class="main-navigation__item">
             Get started
           </router-link>
-          <router-link
-            to="/guidelines"
-            class="main-navigation__item"
-          >
+          <router-link to="/guidelines" class="main-navigation__item">
             Guidelines
           </router-link>
-          <router-link
-            to="/components"
-            class="main-navigation__item"
-          >
+          <router-link to="/components" class="main-navigation__item">
             Components
           </router-link>
           <router-link to="/examples" class="main-navigation__item">
@@ -85,6 +79,7 @@
             <btn variant="default" size="small">FR</btn>
             <btn variant="default" size="small">IT</btn>
             <btn variant="default" size="small">EN</btn>
+            <btn variant="default" size="small">RM</btn>
           </nav>
         </div>
       </div>
