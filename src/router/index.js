@@ -16,7 +16,8 @@ const routes = [
     path: "/guidelines",
     name: "Guidelines",
     components: {
-      main: () => import("../views/Guidelines.vue")
+      main: () => import("../views/Guidelines.vue"),
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
     }
   },
   {
@@ -28,10 +29,10 @@ const routes = [
     }
   },
   {
-    path: "/components/headings",
-    name: "ComponentsHeadings",
+    path: "/components/typography",
+    name: "ComponentsTypography",
     components: {
-      main: () => import("../views/components/Headings.vue"),
+      main: () => import("../views/components/Typography.vue"),
       sidebar: () => import("../views/menus/ComponentsMenu.vue")
     }
   },
@@ -112,7 +113,8 @@ const routes = [
     path: "/examples",
     name: "Examples",
     components: {
-      main: () => import("../views/Examples.vue")
+      main: () => import("../views/Examples.vue"),
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
     }
   },
   {
