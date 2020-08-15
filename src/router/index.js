@@ -141,6 +141,14 @@ const routes = [
       sidebar: () => import("../views/menus/GetStartedMenu.vue")
     }
   },
+  {
+    path: "/Glossary",
+    name: "Glossary",
+    components: {
+      main: () => import("../views/Glossary.vue"),
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
+    }
+  },
   ///////////////////////////////////////////////////////////////
   // designer items here
   ///////////////////////////////////////////////////////////////
