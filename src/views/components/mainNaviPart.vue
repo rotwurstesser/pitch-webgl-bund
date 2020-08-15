@@ -2,7 +2,7 @@
   <div>
     <router-link
       to="/designers"
-      class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-700 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+      class="no-underline h-12 group flex items-center px-2 py-2 leading-5 rounded-md text-gray-700 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
     >
       <svg
         class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150"
@@ -22,7 +22,7 @@
 
     <router-link
       to="/developers"
-      class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-700 hover:text-gray-700 hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+      class="no-underline h-12 group flex items-center px-2 py-2 leading-5 rounded-md text-gray-700 hover:text-gray-700 hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
     >
       <svg
         class="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150"
@@ -41,7 +41,7 @@
     </router-link>
     <router-link
       to="/glossary"
-      class="no-underline group flex items-center px-2 py-2 leading-5 rounded-md text-gray-700 hover:text-gray-700 hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+      class="no-underline h-12 group flex items-center px-2 py-2 leading-5 rounded-md text-gray-700 hover:text-gray-700 hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
     >
       <svg-icon class="fill-current h-8 mr-5 text-gray-400" name="glossary" />
       Glossary
