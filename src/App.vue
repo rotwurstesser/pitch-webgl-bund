@@ -12,7 +12,7 @@
         </router-link>
         <div class="lg:hidden">
           <svg
-            class="mr-3 h-8 w-8 text-red-700 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150"
+            class="mr-3 h-8 w-8 text-red-700 transition ease-in-out duration-150"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -26,22 +26,22 @@
           </svg>
         </div>
         <div class="hidden lg:block">
-          <router-link to="/" class="font-bold no-underline h-100 p-8">
+          <router-link to="/" class="main-navigation__item">
             Get started
           </router-link>
           <router-link
             to="/guidelines"
-            class="font-bold no-underline h-100 p-8"
+            class="main-navigation__item"
           >
             Guidelines
           </router-link>
           <router-link
             to="/components"
-            class="font-bold no-underline h-100 p-8"
+            class="main-navigation__item"
           >
             Components
           </router-link>
-          <router-link to="/examples" class="font-bold no-underline h-100 p-8">
+          <router-link to="/examples" class="main-navigation__item">
             Examples
           </router-link>
         </div>
@@ -112,13 +112,26 @@ export default {
 };
 </script>
 
-<style scoped>
-/* sorry for that, horrible precedence */
-.sidebar .router-link-exact-active {
-  @apply bg-gray-200;
+<style>
+.main-navigation__item {
+  @apply font-bold no-underline p-8 transition ease-in-out duration-150;
 }
 
+/* sorry for that, horrible precedence */
+.main-navigation__item:hover,
+.main-navigation__item.router-link-exact-active:hover {
+  @apply text-red-600;
+}
+.main-navigation__item.router-link-exact-active {
+  @apply text-red-700;
+}
+
+.sidebar .router-link-exact-active,
 .sidebar .router-link-exact-active svg {
-  @apply text-gray-400;
+  @apply text-red-700 transition ease-in-out duration-150;
+}
+.sidebar .router-link-exact-active:hover,
+.sidebar .router-link-exact-active:hover svg {
+  @apply text-red-600;
 }
 </style>
