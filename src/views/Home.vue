@@ -20,7 +20,8 @@
             Informations for designers
           </h2>
           <p>
-            You are a designer and you want to create a service, a website or an application for the Swiss Confederation.
+            You are a designer and you want to create a service, a website or an
+            application for the Swiss Confederation.
           </p>
           <template v-slot:footer>
             <btn
@@ -39,7 +40,8 @@
             Informations for developers
           </h2>
           <p>
-            You are a developer and you want to build a service, a website or an application for the Swiss Confederation.
+            You are a developer and you want to build a service, a website or an
+            application for the Swiss Confederation.
           </p>
           <template v-slot:footer>
             <btn
@@ -48,6 +50,26 @@
               @click.native="$router.push({ name: 'Developers' })"
             >
               Start as a developer
+            </btn>
+          </template>
+        </card>
+      </div>
+      <div class="grid__item">
+        <card class="space-y-6 h-full">
+          <h2 class="mb-6">
+            Contribute
+          </h2>
+          <p>
+            Whether you are developer, designer or neither. Everyone can
+            contribute to this styleguide.
+          </p>
+          <template v-slot:footer>
+            <btn
+              variant="primary"
+              size="large"
+              @click.native="$router.push({ name: 'Contribute' })"
+            >
+              Find out how to contribute
             </btn>
           </template>
         </card>
