@@ -9,7 +9,7 @@
     </p>
     <ul>
       <li class="flex space-x-4">
-        <svg-icon class="h-6 w-12" name="arrow" /> Do not use outlined icons.
+        <svg-icon class="h-6 w-12" name="arrow" /> Do not use filled icons.
       </li>
       <li class="flex space-x-4">
         <svg-icon class="h-6 w-12" name="arrow" /> Do not alter or distort the
@@ -43,13 +43,17 @@
       </div>
     </code-loader>
     <h2>Identification Icons</h2>
-    <p>Identification icons are used to identify a service or product.</p>
+    <p>
+      Identification icons are used to identify a service, information or
+      product.
+    </p>
     <code-loader lang="html">
       <div class="flex flex-wrap space-x-4">
         <svg-icon
           class="text-red-600 fill-current"
           name="academic-capidentification"
         />
+        <svg-icon class="text-black fill-current" name="arrowdefault" />
         <svg-icon
           class="text-red-600 fill-current"
           name="briefcaseidentification"
@@ -82,6 +86,13 @@
           class="text-red-600 fill-current"
           name="vectoridentification"
         />
+      </div>
+    </code-loader>
+    <h2>Navigation Icons</h2>
+    <p>Navigation icons are used as part of the UI.</p>
+    <code-loader lang="html">
+      <div class="flex flex-wrap space-x-4">
+        <svg-icon class="text-red-600 fill-current" name="academic-" />
       </div>
     </code-loader>
   </div>
