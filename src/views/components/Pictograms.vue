@@ -3,7 +3,7 @@
     <h1 class="font-bold mb-16">Pictograms</h1>
     <info-box class="my-8">
       <p>
-        The Pictos we picked on this page were exctracted from some Cantonal
+        The Pictos we picked on this page were extracted from some Cantonal
         flags, the choice is random and serves as an example.
       </p>
     </info-box>

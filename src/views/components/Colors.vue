@@ -1,6 +1,12 @@
 <template>
   <div class="space-y-6">
     <h2>Default color palette</h2>
+    <info-box class="my-8">
+      <p>
+        The Colors we picked on this page were extracted and adapted from the
+        current Admin Pages, the adaptions and choice is experimental.
+      </p>
+    </info-box>
     <p>
       The Styleguide includes a generous palette of well-balanced, hand-picked
       colors that are meant for kicking off any new project.
@@ -85,6 +91,7 @@
 </template>
 
 <script>
+import InfoBox from "../../components/InfoBox.vue";
 import resolveConfig from "tailwindcss/resolveConfig";
 const tailwind = require("../../../tailwind.config.js");
 
@@ -124,6 +131,7 @@ const code_extend = `// tailwind.config.js
   }`;
 
 export default {
+  components: { InfoBox },
   data() {
     return {
       theme: mergedTailwind.theme,
