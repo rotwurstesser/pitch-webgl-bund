@@ -7,7 +7,8 @@
       <img src="@/assets/grid/4.png" class="col-start-8 row-start-2" />
       <img src="@/assets/grid/5.png" class="col-start-4 row-start-12" />
       <img src="@/assets/grid/6.png" class="col-start-2 row-start-10" />
-      <img src="@/assets/grid/7.png" class="col-start-8 row-start-10" />
+      <img src="@/assets/grid/7.png" class="col-start-2 row-start-10" />
+      <img src="@/assets/grid/8.png" class="col-start-8 row-start-10" />
     </div>
   </div>
 </template>
