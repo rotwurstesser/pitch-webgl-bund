@@ -92,7 +92,18 @@
     <p>Navigation icons are used as part of the UI.</p>
     <code-loader lang="html">
       <div class="flex flex-wrap space-x-4">
-        <svg-icon class="text-red-600 fill-current" name="academic-" />
+        <svg-icon class="text-red-600 fill-current" name="zoom-outnav" />
+        <svg-icon class="text-red-600 fill-current" name="zoom-innav" />
+        <svg-icon class="text-red-600 fill-current" name="calendarnav" />
+        <svg-icon class="text-red-600 fill-current" name="chevron-downnav" />
+        <svg-icon class="text-red-600 fill-current" name="chevron-leftnav" />
+        <svg-icon class="text-red-600 fill-current" name="chevron-rightnav" />
+        <svg-icon class="text-red-600 fill-current" name="chevron-upnav" />
+        <svg-icon class="text-red-600 fill-current" name="external-linknav" />
+        <svg-icon class="text-red-600 fill-current" name="homenav" />
+        <svg-icon class="text-red-600 fill-current" name="menunav" />
+        <svg-icon class="text-red-600 fill-current" name="xnav" />
+        <svg-icon class="text-red-600 fill-current" name="minusnav" />
       </div>
     </code-loader>
   </div>
