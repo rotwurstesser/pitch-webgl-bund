@@ -60,6 +60,14 @@ const routes = [
       sidebar: () => import("../views/menus/ComponentsMenu.vue")
     }
   },
+  {
+    path: "/components/picto",
+    name: "ComponentPictos",
+    components: {
+      main: () => import("../views/components/Pictograms.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
 
   {
     path: "/components/spacings",
