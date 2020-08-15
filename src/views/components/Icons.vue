@@ -2,23 +2,52 @@
   <div class="space-y-6 max-w-4xl icons">
     <h1 class="font-bold mb-16">Icons</h1>
     <p>
-      Icons are the bomb
+      Icons should always be in red or black when placed on a white or blue
+      background. The same applies when icons are placed on other light
+      background colours. When icons are in a group, use them in the same size
+      to ensure that they have the same line weight
     </p>
-    <h2>Helpers</h2>
-    <div class="flex flex-wrap space-x-4">
-      <svg-icon class="text-red-600 fill-current" name="chevron-left" />
-      <svg-icon class="text-red-600 fill-current" name="loading" />
-      <svg-icon class="text-red-600 fill-current" name="close" />
-    </div>
-    <h2>Cantons</h2>
-    <div class="flex flex-wrap space-x-4">
-      <svg-icon name="bern" />
-      <svg-icon name="glarus" />
-      <svg-icon name="luzern" />
-      <svg-icon name="schwyz" />
-      <svg-icon name="zuerich" />
-      <svg-icon name="uri" />
-    </div>
+    <ul>
+      <li class="flex space-x-4">
+        <svg-icon class="h-6 w-12" name="arrow" /> Do not use outlined icons.
+      </li>
+      <li class="flex space-x-4">
+        <svg-icon class="h-6 w-12" name="arrow" /> Do not alter or distort the
+        icons.
+      </li>
+    </ul>
+
+    <h2>Action Icons</h2>
+    <p>Action icons are used to signal and describe interaction.</p>
+    <code-loader lang="html">
+      <div class="flex flex-wrap space-x-4">
+        <svg-icon class="text-red-600 fill-current" name="cogaction" />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="dots-horizontalaction"
+        />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="dots-verticalaction"
+        />
+        <svg-icon class="text-red-600 fill-current" name="duplicateaction" />
+        <svg-icon class="text-red-600 fill-current" name="eye-offaction" />
+        <svg-icon class="text-red-600 fill-current" name="eyeaction" />
+        <svg-icon class="text-red-600 fill-current" name="filteraction" />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="paper-airplaneaction"
+        />
+        <svg-icon class="text-red-600 fill-current" name="trashaction" />
+      </div>
+    </code-loader>
+    <h2>Identification Icons</h2>
+    <p>Identification icons are used to identify a service or product.</p>
+    <code-loader lang="html">
+      <div class="flex flex-wrap space-x-4">
+        <svg-icon class="text-red-600 fill-current" name="eyeaction" />
+      </div>
+    </code-loader>
   </div>
 </template>
 <style>
