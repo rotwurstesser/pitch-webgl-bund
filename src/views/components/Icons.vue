@@ -39,13 +39,49 @@
           name="paper-airplaneaction"
         />
         <svg-icon class="text-red-600 fill-current" name="trashaction" />
+        <svg-icon class="text-red-600 fill-current" name="trashaction" />
       </div>
     </code-loader>
     <h2>Identification Icons</h2>
     <p>Identification icons are used to identify a service or product.</p>
     <code-loader lang="html">
       <div class="flex flex-wrap space-x-4">
-        <svg-icon class="text-red-600 fill-current" name="eyeaction" />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="academic-capidentification"
+        />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="briefcaseidentification"
+        />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="currency-euroidentification"
+        />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="identificationidentification"
+        />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="libraryidentification"
+        />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="office-buildingidentification"
+        />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="shopping-cartidentification"
+        />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="truckidentification"
+        />
+        <svg-icon
+          class="text-red-600 fill-current"
+          name="vectoridentification"
+        />
       </div>
     </code-loader>
   </div>
