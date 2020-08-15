@@ -1,6 +1,13 @@
 <template>
   <div class="space-y-6 max-w-4xl">
     <h1 class="font-bold mb-16">Icons</h1>
+    <info-box class="my-8">
+      <p>
+        The Icons we picked on this page are a set of Opensource icons which
+        could make sense on Admin pages, any adaptions and choices are
+        experimental.
+      </p>
+    </info-box>
     <p>
       Several icons are availble in the Design System this Set will be
       continually expanded upon.
@@ -32,3 +39,9 @@
     ></iframe>
   </div>
 </template>
+<script>
+import InfoBox from "../../components/InfoBox.vue";
+export default {
+  components: { InfoBox }
+};
+</script>
