@@ -1,6 +1,13 @@
 <template>
   <div class="space-y-6 max-w-4xl icons">
     <h1 class="font-bold mb-16">Icons</h1>
+    <info-box class="my-8">
+      <p>
+        The Icons we picked on this page are a set of Opensource icons which
+        could make sense on Admin pages, any adaptions and choices are
+        experimental.
+      </p>
+    </info-box>
     <p>
       Icons should always be in red or black when placed on a white or blue
       background. The same applies when icons are placed on other light
@@ -114,3 +121,9 @@
   width: 24px;
 }
 </style>
+<script>
+import InfoBox from "../../components/InfoBox.vue";
+export default {
+  components: { InfoBox }
+};
+</script>

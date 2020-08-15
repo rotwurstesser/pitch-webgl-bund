@@ -4,8 +4,7 @@
     <info-box class="my-8">
       <p>
         The Icons we picked on this page are a set of Opensource icons which
-        could make sense on Admin pages, any adaptions and choices are
-        experimental.
+        could make sense on Admin pages, any adaptions and choices experimental.
       </p>
     </info-box>
     <p>
