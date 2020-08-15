@@ -150,6 +150,14 @@ const routes = [
     }
   },
   {
+    path: "/Contribute",
+    name: "Contribute",
+    components: {
+      main: () => import("../views/Contribute.vue"),
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
+    }
+  },
+  {
     path: "/Glossary",
     name: "Glossary",
     components: {
