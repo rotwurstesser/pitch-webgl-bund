@@ -1,11 +1,18 @@
 <template>
   <div class="space-y-6">
-    <h2>Grid Template Columns</h2>
+    <h1>The Grid</h1>
     <p class="text-gray-500 mb-8">
       Using Grids is a Swiss design, that is why we allow for the usage of
       creative grids with CSS grid.
     </p>
-    <grid-example />
+    <code-loader
+      figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=420%3A435"
+      lang="html"
+    >
+      <grid-example />
+    </code-loader>
+    <h2>Grid Template Columns</h2>
+    <p>The Columns control the vertical spacing</p>
     <div
       class="mt-0 mb-16 border-t border-b border-gray-300 overflow-hidden relative"
     >
