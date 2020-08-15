@@ -32,7 +32,7 @@ module.exports = {
         400: "#999999",
         500: "#666666",
         600: "#333333",
-        700: "#111111",
+        700: "#111111"
       },
       red: {
         100: "#FFE6E6",
@@ -41,7 +41,7 @@ module.exports = {
         400: "#FF6666",
         500: "#FF3333",
         600: "#FF0000",
-        700: "#EB0000",
+        700: "#EB0000"
       },
       orange: {
         100: "#fffaf0",
@@ -50,7 +50,7 @@ module.exports = {
         400: "#f6ad55",
         500: "#ed8936",
         600: "#dd6b20",
-        700: "#c05621",
+        700: "#c05621"
       },
       green: {
         100: "#f0fff4",
@@ -59,7 +59,7 @@ module.exports = {
         400: "#68d391",
         500: "#48bb78",
         600: "#38a169",
-        700: "#2f855a",
+        700: "#2f855a"
       },
       blue: {
         100: "#F2F7FD",
@@ -68,7 +68,7 @@ module.exports = {
         400: "#669BE9",
         500: "#3379E2",
         600: "#0058DB",
-        700: "#0050C7",
+        700: "#0050C7"
       }
     },
     spacing: {
@@ -177,7 +177,13 @@ module.exports = {
       default: "1"
     },
     fontFamily: {
-      sans: ["Suisse Sign", "FrutigerNext", "Frutiger", "Inter var", ...defaultTheme.fontFamily.sans],
+      sans: [
+        "Suisse Sign",
+        "FrutigerNext",
+        "Frutiger",
+        "Inter var",
+        ...defaultTheme.fontFamily.sans
+      ],
       serif: ["Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
       mono: [
         "Menlo",
@@ -451,7 +457,8 @@ module.exports = {
       "span-3": "span 3 / span 3",
       "span-4": "span 4 / span 4",
       "span-5": "span 5 / span 5",
-      "span-6": "span 6 / span 6"
+      "span-6": "span 6 / span 6",
+      "span-20": "span 20 / span 20"
     },
     gridRowStart: {
       auto: "auto",
@@ -461,7 +468,20 @@ module.exports = {
       "4": "4",
       "5": "5",
       "6": "6",
-      "7": "7"
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "11": "11",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20"
     },
     gridRowEnd: {
       auto: "auto",
@@ -471,7 +491,20 @@ module.exports = {
       "4": "4",
       "5": "5",
       "6": "6",
-      "7": "7"
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "11": "11",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20"
     },
     transformOrigin: {
       center: "center",

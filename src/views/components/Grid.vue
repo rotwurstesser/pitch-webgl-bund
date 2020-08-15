@@ -2,8 +2,10 @@
   <div class="space-y-6">
     <h2>Grid Template Columns</h2>
     <p class="text-gray-500 mb-8">
-      Utilities for specifying the columns in a grid layout.
+      Using Grids is a Swiss design, that is why we allow for the usage of
+      creative grids with CSS grid.
     </p>
+    <grid-example />
     <div
       class="mt-0 mb-16 border-t border-b border-gray-300 overflow-hidden relative"
     >
@@ -361,11 +363,13 @@
 </template>
 
 <script>
+import GridExample from "@/components/GridExample.vue";
 import CodeLoader from "@/components/CodeLoader.vue";
 
 export default {
   components: {
-    CodeLoader
+    CodeLoader,
+    GridExample
   }
 };
 </script>
