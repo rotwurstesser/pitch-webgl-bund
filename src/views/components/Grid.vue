@@ -2,13 +2,12 @@
   <div class="space-y-6">
     <h1>The Grid</h1>
     <p class="text-gray-500 mb-8">
-      Swiss Design is synonymous with International Style by utilizing the
-      perhaps influential tool in modern design history: the Grid.The Design
-      Grid is an orderly set of regularly spaced lines that help dictate the
-      arrangement of text and image on a page layout. Even in the absence of any
-      lines at all, you feel the Grid giving shape and structure, guiding and
-      constraining. Use the Grid in any situation where you want to give order
-      to more than two elements.
+      Swiss Design is synonymous with International Style by utilizing the most
+      influential tool in modern design history: the Grid.The Design Grid is an
+      orderly set of regularly spaced lines that help dictate the arrangement of
+      text and image on a page layout. Even in the absence of any lines at all,
+      you feel the Grid giving shape and structure, guiding and constraining.
+      Use the Grid whenever you need to layout pages.
     </p>
     <code-loader
       figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=420%3A435"
