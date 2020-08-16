@@ -114,7 +114,7 @@ export default {
 
 <style>
 .main-navigation__item {
-  @apply font-bold no-underline p-8 transition ease-in-out duration-150;
+  @apply no-underline p-8 transition ease-in-out duration-150;
 }
 
 /* sorry for that, horrible precedence */
