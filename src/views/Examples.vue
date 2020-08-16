@@ -6,7 +6,7 @@
       <img class="max-w-screen-sm" src="@/assets/cantons.png" />
     </div>
     <a
-      href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=403%3A10"
+      href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=495%3A154"
       target="_blank"
       class="border-0 border-gray-400 border-r btn btn--tertiary btn--xs cursor-pointer inline-block"
     >
@@ -23,7 +23,7 @@
       <img class="max-w-screen-sm" src="@/assets/newspage.png" />
     </div>
     <a
-      href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=495%3A154"
+      href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=403%3A10"
       target="_blank"
       class="border-0 border-gray-400 border-r btn btn--tertiary btn--xs cursor-pointer inline-block"
     >
