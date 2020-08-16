@@ -19,7 +19,7 @@
       offers the up to date Sketch Library.
     </p>
     <btn variant="link">Learn more about Tailwind</btn>
-    <btn variant="link" class="mb-12">Download Sketch Library</btn>
+    <btn variant="link">Download Sketch Library</btn>
     <btn variant="link" class="mb-12">Open Figma Library</btn>
   </div>
 </template>
