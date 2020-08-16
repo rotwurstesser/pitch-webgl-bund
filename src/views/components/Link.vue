@@ -70,7 +70,7 @@
 </template>
 <style lang="postcss">
 .linkzz a {
-  @apply font-bold;
+  @apply font-bold text-red-700;
 }
 </style>
 <script>
