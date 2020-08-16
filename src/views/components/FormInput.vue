@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6 mb-24">
-    <h1 class="font-bold mb-16">Text Input</h1>
+    <h1>Text Input</h1>
     <p>
       Text Inputs are there to catch a small amount of data from users, if you
       expect larger amounts of data use a Textarea. Keep in mind to always use a

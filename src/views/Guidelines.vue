@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="font-bold mb-16">Guidelines</h1>
+    <h1>Guidelines</h1>
     <info-box class="my-8">
       <p>
         Some elements might not be fully available in this prototype. The

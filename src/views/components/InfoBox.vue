@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6 mb-24">
-    <h1 class="font-bold mb-16">Info box component</h1>
+    <h1>Info box component</h1>
     <p>
       Info Boxes are mostly used for presenting shorter, article like, content
       segments. Like posts. They can also be used to highlight content inside of

@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6 max-w-4xl">
-    <h1 class="font-bold mb-16">Pictograms</h1>
+    <h1>Pictograms</h1>
     <info-box class="my-8">
       <p>
         The Pictos we picked on this page were extracted from some Cantonal

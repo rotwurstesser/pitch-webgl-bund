@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6">
-    <h1 class="font-bold mb-16">
+    <h1>
       Digital Design System for the Swiss Confederation
     </h1>
     <h2>

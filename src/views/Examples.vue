@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="font-bold mb-16">Examples</h1>
+    <h1>Examples</h1>
     <h2 class="my-4">Webdesign - Newspage</h2>
     <div class="p-8 bg-gray-200 flex justify-center">
       <img class="max-w-screen-sm" src="@/assets/newspage.png" />

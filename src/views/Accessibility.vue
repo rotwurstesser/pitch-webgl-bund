@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="font-bold mb-16">Accessibility</h1>
+    <h1>Accessibility</h1>
 
     <info-box class="my-8">
       <p>

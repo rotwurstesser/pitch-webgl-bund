@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="font-bold mb-16">Glossary</h1>
+    <h1>Glossary</h1>
     <h2 class="mb-6 mt-8">
       WEBGL
     </h2>

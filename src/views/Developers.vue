@@ -1,7 +1,7 @@
 <!-- eslint-disable prettier/prettier  -->
 <template>
   <div>
-    <h1 class="font-bold mb-16">Information for Developers</h1>
+    <h1 >Information for Developers</h1>
     <h2 class="mb-12">
       The Digital Design System of the Swiss Confederation provides guidelines, assets and documentation for Developers. Using the provided components, styles, assets and markup ensure a unified product and reduce tech debt.
     </h2>
