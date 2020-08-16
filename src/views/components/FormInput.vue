@@ -26,9 +26,12 @@
     >
       <form>
         <form-input
-          class="dsb-input--error mb-5"
+          class="dsb-input--error"
           label="Error in the input"
         ></form-input>
+        <span class="text-xs text-red-400 mb-5 block">
+          E-Mail or Password seem to be wrong
+        </span>
         <form-input
           class="dsb-input--disabled  mb-5"
           label="Disabled input"
