@@ -21,7 +21,14 @@
       asset. If you're a Sketch user, you can download a Sketch library
       containing all the assets.
     </p>
-    <btn variant="link">Open Figma Library</btn>
+    <a
+      href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=116%3A3972"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="no-underline"
+    >
+      <btn variant="link">Open Figma Library</btn>
+    </a>
     <btn variant="link" class="mb-12">Download Sketch Library</btn>
 
     <h3 class="h2 font-bold mb-4">Fonts usage</h3>
@@ -37,7 +44,7 @@
   </div>
 </template>
 <script>
-import InfoBox from "../../components/InfoBox.vue";
+import InfoBox from "../components/InfoBox.vue";
 export default {
   components: { InfoBox }
 };

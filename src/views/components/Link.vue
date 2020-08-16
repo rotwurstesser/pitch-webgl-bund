@@ -46,7 +46,7 @@
           </p>
           <a
             alt="Seite des Bag, Infos für Fachpersonen"
-            class="flex space-x-4 mb-4"
+            class="flex space-x-4 mb-4 btn"
             href="https://www.bag.admin.ch/bag/de/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/information-fuer-die-aerzteschaft.html"
           >
             <svg-icon
