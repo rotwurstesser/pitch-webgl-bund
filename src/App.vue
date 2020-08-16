@@ -73,13 +73,13 @@
           <git-version />
           <nav
             aria-label="language-switcher"
-            class="fixed bottom-0 flex justify-center w-64 bg-gray-200"
+            class="fixed bottom-0 flex justify-center w-64"
           >
-            <btn variant="default" size="small">DE</btn>
-            <btn variant="default" size="small">FR</btn>
-            <btn variant="default" size="small">IT</btn>
-            <btn variant="default" size="small">EN</btn>
-            <btn variant="default" size="small">RM</btn>
+            <btn variant="grid" size="small">DE</btn>
+            <btn variant="grid" size="small">FR</btn>
+            <btn variant="grid" size="small">IT</btn>
+            <btn variant="grid" size="small">EN</btn>
+            <btn variant="grid" size="small">RM</btn>
           </nav>
         </div>
       </div>
