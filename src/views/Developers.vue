@@ -2,7 +2,7 @@
 <template>
   <div>
     <h1>Information for Developers</h1>
-    <h2>
+    <h2 class="font-medium">
       The Digital Design System of the Swiss Confederation provides guidelines, assets and documentation for Developers. Using the provided components, styles, assets and markup ensure a unified product and reduce tech debt.
     </h2>
     <h2>What the Design System covers</h2>

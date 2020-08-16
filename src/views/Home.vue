@@ -3,7 +3,7 @@
     <h1>
       Digital Design System for the Swiss Confederation
     </h1>
-    <h2>
+    <h2 class="font-medium">
       Design your service based on the guidelines and components crafted for the
       Swiss confederation services, websites and applications.
     </h2>
