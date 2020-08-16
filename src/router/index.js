@@ -129,7 +129,7 @@ const routes = [
     path: "/examples",
     name: "Examples",
     components: {
-      main: () => import("../views/Migrate.vue"),
+      main: () => import("../views/Examples.vue"),
       sidebar: () => import("../views/menus/GetStartedMenu.vue")
     }
   },
