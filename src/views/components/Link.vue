@@ -17,9 +17,10 @@
           Instead, use specific descriptions
         </li>
         <li class="flex space-x-4">
-          <svg-icon class="h-6 w-12" name="arrow" /> On larger sites use the
-          arrow icon to guide the users eye. If you do, do not forget to hide
-          the icon for screenreaders.
+          <svg-icon class="h-6 w-12" name="arrow" /> On larger sites and for
+          more important links use the arrow icon to guide the users eye. Id you
+          link to a document, consider using a document icon before the link. If
+          you do, do not forget to hide the icon for screenreaders.
         </li>
         <li class="flex space-x-4">
           <svg-icon class="h-6 w-12" name="arrow" /> For the best user

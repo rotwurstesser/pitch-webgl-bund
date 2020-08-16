@@ -18,7 +18,7 @@
     <h2 class="my-5">Input States</h2>
     <p>
       As Inputs can be disabled, invalid and more we provide different states
-      out of the box
+      out of the box.
     </p>
     <code-loader
       figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=388%3A4620"
