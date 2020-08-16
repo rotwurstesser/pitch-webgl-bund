@@ -10,7 +10,7 @@
     <p>
       Pictographs are used in writing and graphic systems in which the
       characters are to a considerable extent pictorial in appearance. The
-      symbolic Language we picked represents the Diversity of Siwtzerland and is
+      symbolic Language we picked represents the Diversity of Switzerland and is
       therefore a Keyvisual to convey the Brand of the Swiss Confederation.
     </p>
     <code-loader
