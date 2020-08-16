@@ -77,10 +77,10 @@
       <div class="grid__item">
         <card class="space-y-6 h-full">
           <h2>
-            Migrate to the new CI/CD
+            Migrate to the new Design
           </h2>
           <p>
-            If you need to convert your Website from the old CI/CD to the new
+            If you need to convert your Website from the old Design to the new
             one you can find the documentation here.
           </p>
           <template v-slot:footer>
