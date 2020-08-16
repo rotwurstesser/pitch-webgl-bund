@@ -17,7 +17,7 @@
       Diversity.
     </p>
     <svg-icon name="logo" class="h-24 my-4 w-auto fill-current" />
-    <h2 class="mt-4">Key Principles</h2>
+    <h2>Key Principles</h2>
     <p class="mb-4">
       The Design System aims to align with the Guidelines of the Swiss
       Confederation and therefore our principles are:

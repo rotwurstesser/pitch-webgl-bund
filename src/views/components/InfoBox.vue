@@ -35,7 +35,7 @@
         </p>
       </info-box>
     </code-loader>
-    <h2 class="mx-5">Infoboxes as warning</h2>
+    <h2>Infoboxes as warning</h2>
     <p>
       Info boxes can also be used to guide a users attention to errors or
       warnings surfacing from the system.
@@ -59,7 +59,7 @@
         </p>
       </info-box>
     </code-loader>
-    <h2 class="mx-5">Infoboxes as success</h2>
+    <h2>Infoboxes as success</h2>
     <p>
       Info boxes can also be used to guide a users attention to success messages
       surfacing from the system.

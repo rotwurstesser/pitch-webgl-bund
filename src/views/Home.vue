@@ -16,7 +16,7 @@
     <div class="grid grid-col lg:grid-cols-2 gap-6 pt-10">
       <div class="grid__item">
         <card class="space-y-6 h-full">
-          <h2 class="mb-6">
+          <h2>
             Informations for designers
           </h2>
           <p>
@@ -36,7 +36,7 @@
       </div>
       <div class="grid__item">
         <card class="space-y-6 h-full">
-          <h2 class="mb-6">
+          <h2>
             Informations for developers
           </h2>
           <p>
@@ -56,7 +56,7 @@
       </div>
       <div class="grid__item">
         <card class="space-y-6 h-full">
-          <h2 class="mb-6">
+          <h2>
             Contribute
           </h2>
           <p>

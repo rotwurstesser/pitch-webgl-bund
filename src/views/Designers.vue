@@ -8,12 +8,12 @@
         like.
       </p>
     </info-box>
-    <h2 class="mb-12">
+    <h2>
       The Digital Design System of the Swiss Confederation provides guidelines,
       up-to-date design assets and starterkits to Designers to quickly start a
       projet.
     </h2>
-    <h3 class="h2 font-bold mb-4">Design tools</h3>
+    <h3>Design tools</h3>
     <p class="mb-3">
       The design system is based on assets created with Figma, a well known UI
       design tool in the designer community. For every component description in
@@ -29,9 +29,9 @@
     >
       <btn variant="link">Open Figma Library</btn>
     </a>
-    <btn variant="link" class="mb-12">Download Sketch Library</btn>
+    <btn variant="link">Download Sketch Library</btn>
 
-    <h3 class="h2 font-bold mb-4">Fonts usage</h3>
+    <h3 class="mt-6">Fonts usage</h3>
     <p class="mb-3">
       The official font library is named “Swiss Sign”. To get started quickly,
       you can download the trial font family. For official projects, make a
@@ -40,7 +40,7 @@
       the domain name of your project on your email address.
     </p>
     <btn variant="link">Download Swiss Sign Trial version</btn>
-    <btn variant="link" class="mb-12">Request official Swiss Sign package</btn>
+    <btn variant="link">Request official Swiss Sign package</btn>
   </div>
 </template>
 <script>

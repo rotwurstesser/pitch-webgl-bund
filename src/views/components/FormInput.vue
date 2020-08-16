@@ -15,7 +15,7 @@
         <form-input label="First name"></form-input>
       </form>
     </code-loader>
-    <h2 class="my-5">Input States</h2>
+    <h2>Input States</h2>
     <p>
       As Inputs can be disabled, invalid and more we provide different states
       out of the box.
@@ -39,7 +39,7 @@
       </form>
     </code-loader>
 
-    <h2 class="my-5">Input with icon</h2>
+    <h2>Input with icon</h2>
     <p>
       Text Inputs can be used with icons. We suggest using these inputs as
       search to navigate large amounts of complex content.

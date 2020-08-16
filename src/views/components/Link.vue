@@ -31,7 +31,7 @@
           meaningful href, it should be rendered using a button element.
         </li>
       </ul>
-      <h2 class="mb-4">Example</h2>
+      <h2>Example</h2>
       <code-loader lang="html">
         <div class="my-4">
           <p class="mb-4">
