@@ -2,6 +2,7 @@
   <button
     class="btn"
     :class="[size ? `btn--${size}` : '', variant ? `btn--${variant}` : '']"
+    v-bind:disabled="disabled"
   >
     <svg-icon v-if="variant == `link`" class="h-8 w-8 mr-2" name="arrow" />
     <slot></slot>
@@ -19,6 +20,10 @@ export default {
     variant: {
       type: String,
       validator: prop => ["default", "primary", "secondary", "link"].includes(prop)
+    },
+    disabled: {
+      type: Boolean,
+      default: false
     }
   }
 };
