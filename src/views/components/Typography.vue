@@ -6,6 +6,19 @@
       Talk about the Font choice, Frutiger, and give some words about Adrian the
       Greatest. Rythme, precision, vertical spacings could be evoked too.
     </p>
+    <h2>Suisse Sign</h2>
+    The Design System uses Suisse Sign. What sets Suisse Sign apart is its large
+    apertures – most evident in a, e, g, s – and the reworked uppercase glyphs.
+    The design deviates from the classic Grotesk model, and instead tunes into
+    the new sans serif as it emerged in the last third of the 20th century, with
+    open shapes and a more economical set width. Suisse Sign covers a wide range
+    of applications from small text sizes to big headlines. As the name implies,
+    it’s particularly well suited for signage and wayfinding: Characters with
+    open counters are less ambiguous and easier to identify from a distance. A
+    letter like c can’t be mistaken for an o, even under poor lighting or other
+    limiting viewing conditions. The barred I is another means that helps in
+    situations were impeccable legibility is required. Suisse Sign comes in
+    Thin, Regular, Semi Bold, and Bold, with italics for all weights.
     <h2>Headings</h2>
     <p>
       Headings serve to structure the content of a page. The higher the heading
