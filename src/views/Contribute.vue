@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Contribute</h1>
-    <p>
+    <p class="mb-6">
       There are many ways you can contribute to the design system, including
       submission of elements, bug fixes, documentation improvements, and
       participation in discussions.
