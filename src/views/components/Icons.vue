@@ -22,6 +22,16 @@
         <svg-icon class="h-6 w-12" name="arrow" /> Do not alter or distort the
         icons.
       </li>
+      <li class="flex">
+        <svg-icon class="h-6 w-12" name="arrow" />
+        <p>
+          If you feel there is an icon missing feel free to
+          <router-link to="/contribute">
+            contribute
+          </router-link>
+          it.
+        </p>
+      </li>
     </ul>
 
     <h2>Accessibility</h2>
