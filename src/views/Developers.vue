@@ -14,7 +14,7 @@
       If you would like to start using the system you have two options: Install the Design System via npm or using it via CDN.
     </p>
     <info-box class="my-8">
-      <p>Some elements might not be fully available in this prototype. The Elements below serve as an example of how the documentation would look like.</p>
+      <p>Some elements might not be fully available or configured in this prototype. The Elements below serve as an example of how the documentation would look like.</p>
     </info-box>
     <h2>Install the Design System via npm</h2>
     <p>

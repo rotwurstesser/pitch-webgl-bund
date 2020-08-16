@@ -3,9 +3,9 @@
     <h1>Information for Designers</h1>
     <info-box class="my-8 mb-16">
       <p>
-        Some elements might not be fully available in this prototype. The
-        Elements below serve as an example of how the documentation would look
-        like.
+        Some elements might not be fully available or configured in this
+        prototype. The Elements below serve as an example of how the
+        documentation would look like.
       </p>
     </info-box>
     <h2>
