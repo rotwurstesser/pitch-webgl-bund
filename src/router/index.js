@@ -158,6 +158,14 @@ const routes = [
     }
   },
   {
+    path: "/Changelog",
+    name: "Changelog",
+    components: {
+      main: () => import("../views/Changelog.vue"),
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
+    }
+  },
+  {
     path: "/Developers",
     name: "Developers",
     components: {

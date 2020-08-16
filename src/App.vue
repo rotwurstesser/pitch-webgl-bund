@@ -38,6 +38,9 @@
           <router-link to="/examples" class="main-navigation__item">
             Examples
           </router-link>
+          <router-link to="/Changelog" class="main-navigation__item">
+            Changelog
+          </router-link>
         </div>
       </div>
     </header>
