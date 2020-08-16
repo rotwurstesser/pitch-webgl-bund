@@ -43,9 +43,16 @@
             inventore pariatur molestias iusto sed ipsum ipsam incidunt! Dicta,
             earum saepe!
           </p>
-          <a class="flex space-x-4 mb-4" href="">
-            <svg-icon class="h-6 w-12" name="arrow" />Informationen für
-            Gesundheitsfachpersonen
+          <a
+            alt="Seite des Bag, Infos für Fachpersonen"
+            class="flex space-x-4 mb-4"
+            href=""
+          >
+            <svg-icon
+              aria-hidden="true"
+              class="h-6 w-12"
+              name="arrow"
+            />Informationen für Gesundheitsfachpersonen
           </a>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
