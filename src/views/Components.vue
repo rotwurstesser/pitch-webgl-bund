@@ -10,7 +10,7 @@
       Elements in the system will continually expanded upon. Use the navigation
       to your right to navigate through them.
     </p>
-    <h2>Technologies used</h2>
+    <h2 class="mt-6">Technologies used</h2>
     <p>
       The Components are built with Tailwind and it's @apply function, this
       allows to implement BEM-Name conventions rather easily. Every component
