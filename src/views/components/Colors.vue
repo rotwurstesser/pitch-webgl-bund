@@ -1,5 +1,6 @@
 <template>
   <div class="space-y-6">
+    <h1>Colors</h1>
     <h2>Default color palette</h2>
     <info-box class="my-8">
       <p>
