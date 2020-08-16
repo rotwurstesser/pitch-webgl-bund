@@ -8,7 +8,7 @@
         documentation would look like.
       </p>
     </info-box>
-    <h2>
+    <h2 class="font-medium">
       The Digital Design System of the Swiss Confederation provides guidelines,
       up-to-date design assets and starterkits to Designers to quickly start a
       projet.
