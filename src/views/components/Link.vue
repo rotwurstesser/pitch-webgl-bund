@@ -18,7 +18,8 @@
         </li>
         <li class="flex space-x-4">
           <svg-icon class="h-6 w-12" name="arrow" /> On larger sites use the
-          arrow icon to guide the users eye.
+          arrow icon to guide the users eye. If you do, do not forget to hide
+          the icon for screenreaders.
         </li>
         <li class="flex space-x-4">
           <svg-icon class="h-6 w-12" name="arrow" /> For the best user
@@ -46,7 +47,7 @@
           <a
             alt="Seite des Bag, Infos für Fachpersonen"
             class="flex space-x-4 mb-4"
-            href=""
+            href="https://www.bag.admin.ch/bag/de/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/information-fuer-die-aerzteschaft.html"
           >
             <svg-icon
               aria-hidden="true"
