@@ -16,7 +16,8 @@ const routes = [
     path: "/guidelines",
     name: "Guidelines",
     components: {
-      main: () => import("../views/Guidelines.vue")
+      main: () => import("../views/Guidelines.vue"),
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
     }
   },
   {
@@ -28,10 +29,10 @@ const routes = [
     }
   },
   {
-    path: "/components/headings",
-    name: "ComponentsHeadings",
+    path: "/components/typography",
+    name: "ComponentsTypography",
     components: {
-      main: () => import("../views/components/Headings.vue"),
+      main: () => import("../views/components/Typography.vue"),
       sidebar: () => import("../views/menus/ComponentsMenu.vue")
     }
   },
@@ -56,6 +57,14 @@ const routes = [
     name: "ComponentIcons",
     components: {
       main: () => import("../views/components/Icons.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
+    path: "/components/picto",
+    name: "ComponentPictos",
+    components: {
+      main: () => import("../views/components/Pictograms.vue"),
       sidebar: () => import("../views/menus/ComponentsMenu.vue")
     }
   },
@@ -101,6 +110,14 @@ const routes = [
     }
   },
   {
+    path: "/components/link",
+    name: "ComponentsLink",
+    components: {
+      main: () => import("../views/components/Link.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
     path: "/components/infobox",
     name: "ComponentsInfoBox",
     components: {
@@ -112,7 +129,8 @@ const routes = [
     path: "/examples",
     name: "Examples",
     components: {
-      main: () => import("../views/Examples.vue")
+      main: () => import("../views/Examples.vue"),
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
     }
   },
   {
@@ -136,6 +154,22 @@ const routes = [
     name: "Developers",
     components: {
       main: () => import("../views/Developers.vue"),
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
+    }
+  },
+  {
+    path: "/Contribute",
+    name: "Contribute",
+    components: {
+      main: () => import("../views/Contribute.vue"),
+      sidebar: () => import("../views/menus/GetStartedMenu.vue")
+    }
+  },
+  {
+    path: "/Glossary",
+    name: "Glossary",
+    components: {
+      main: () => import("../views/Glossary.vue"),
       sidebar: () => import("../views/menus/GetStartedMenu.vue")
     }
   },

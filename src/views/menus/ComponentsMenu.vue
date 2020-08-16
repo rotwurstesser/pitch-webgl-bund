@@ -10,17 +10,21 @@
         </router-link>
       </div>
       <h3
-        class="mt-10 px-2 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
+        class="mt-10 mb-4 px-2 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
         id="atoms-headline"
       >
-        Design Tokens
+        General
       </h3>
-      <div class="mt-1 space-y-1" role="group" aria-labelledby="atoms-headline">
+      <div
+        class="mt-1 pl-2 space-y-1"
+        role="group"
+        aria-labelledby="atoms-headline"
+      >
         <router-link
-          to="/components/headings"
+          to="/components/typography"
           class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-700 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
-          Headings
+          Typography
         </router-link>
         <router-link
           to="/components/colors"
@@ -46,17 +50,27 @@
         >
           Icons
         </router-link>
+        <router-link
+          to="/components/picto"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-700 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+        >
+          Pictograms
+        </router-link>
       </div>
     </div>
 
     <div class="mt-10">
       <h3
-        class="px-2 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
+        class="px-2 mb-4 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
         id="cells-headline"
       >
         Components
       </h3>
-      <div class="mt-1 space-y-1" role="group" aria-labelledby="cells-headline">
+      <div
+        class="mt-1 pl-2 space-y-1"
+        role="group"
+        aria-labelledby="cells-headline"
+      >
         <router-link
           to="/components/cards"
           class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-700 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
@@ -68,6 +82,12 @@
           class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-700 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
         >
           Buttons
+        </router-link>
+        <router-link
+          to="/components/link"
+          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-700 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
+        >
+          Links
         </router-link>
         <router-link
           to="/components/lists"

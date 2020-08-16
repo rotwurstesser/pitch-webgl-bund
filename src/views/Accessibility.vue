@@ -4,7 +4,7 @@
 
     <info-box class="my-8">
       <p>
-        These elements might not be fully available in this prototype. The
+        Some elements might not be fully available in this prototype. The
         Elements below serve as an example of how the documentation would look
         like.
       </p>
@@ -29,3 +29,9 @@
     products that anyone can use.
   </div>
 </template>
+<script>
+import InfoBox from "../components/InfoBox.vue";
+export default {
+  components: { InfoBox }
+};
+</script>

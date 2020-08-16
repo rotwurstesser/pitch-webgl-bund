@@ -1,9 +1,22 @@
 <template>
   <div class="space-y-6">
-    <h2>Grid Template Columns</h2>
+    <h1>The Grid</h1>
     <p class="text-gray-500 mb-8">
-      Utilities for specifying the columns in a grid layout.
+      Swiss Design is synonymous with International Style by utilizing the most
+      influential tool in modern design history: the Grid.The Design Grid is an
+      orderly set of regularly spaced lines that help dictate the arrangement of
+      text and image on a page layout. Even in the absence of any lines at all,
+      you feel the Grid giving shape and structure, guiding and constraining.
+      Use the Grid whenever you need to layout pages.
     </p>
+    <code-loader
+      figmalink="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=420%3A435"
+      lang="html"
+    >
+      <grid-example />
+    </code-loader>
+    <h2>Grid Template Columns</h2>
+    <p>The Columns control the vertical spacing</p>
     <div
       class="mt-0 mb-16 border-t border-b border-gray-300 overflow-hidden relative"
     >
@@ -361,11 +374,13 @@
 </template>
 
 <script>
+import GridExample from "@/components/GridExample.vue";
 import CodeLoader from "@/components/CodeLoader.vue";
 
 export default {
   components: {
-    CodeLoader
+    CodeLoader,
+    GridExample
   }
 };
 </script>
