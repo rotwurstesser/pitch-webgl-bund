@@ -35,15 +35,17 @@
       <code-loader lang="html">
         <div class="my-4">
           <p class="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis,
-            nostrum odit aut. Odio, maiores dolores dolor facilis laudantium
-            explicabo culpa cumque corrupti, illum esse saepe illo reiciendis
-            enim dicta totam recusandae eligendi laboriosam, harum cum? Harum
-            distinctio ea nesciunt maxime porro, voluptate nam eveniet dolorum
-            illo, fugiat quibusdam impedit vero ad esse aspernatur incidunt
-            consequatur facere magni magnam ipsam saepe. Doloribus possimus
-            inventore pariatur molestias iusto sed ipsum ipsam incidunt! Dicta,
-            earum saepe!
+            Lorem ipsum dolor
+            <a alt="seite des eda" href="https://www.eda.ch">EDA</a> sit amet,
+            consectetur adipisicing elit. Officiis, nostrum odit aut. Odio,
+            maiores dolores dolor facilis laudantium explicabo culpa cumque
+            corrupti, illum esse saepe illo reiciendis enim dicta totam
+            recusandae eligendi laboriosam, harum cum? Harum distinctio ea
+            nesciunt maxime porro, voluptate nam eveniet dolorum illo, fugiat
+            quibusdam impedit vero ad esse aspernatur incidunt consequatur
+            facere magni magnam ipsam saepe. Doloribus possimus inventore
+            pariatur molestias iusto sed ipsum ipsam incidunt! Dicta, earum
+            saepe!
           </p>
           <a
             alt="Seite des Bag, Infos für Fachpersonen"
