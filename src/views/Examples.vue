@@ -1,12 +1,29 @@
 <template>
   <div>
     <h1>Examples</h1>
-    <h2>Webdesign - Newspage</h2>
+    <h2>Webdesign - Landing</h2>
+    <div class="p-8 bg-gray-200 flex justify-center">
+      <img class="max-w-screen-sm" src="@/assets/cantons.png" />
+    </div>
+    <a
+      href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=403%3A10"
+      target="_blank"
+      class="border-0 border-gray-400 border-r btn btn--tertiary btn--xs cursor-pointer inline-block"
+    >
+      Open in Figma
+    </a>
+    <span
+      alt="This has not been implemented in the prototype"
+      class="border-0 btn btn--tertiary btn--xs inline-block text-gray-400 hover:text-gray-400 cursor-not-allowed"
+    >
+      See the coded page
+    </span>
+    <h2 class="mt-16">Webdesign - Newspage</h2>
     <div class="p-8 bg-gray-200 flex justify-center">
       <img class="max-w-screen-sm" src="@/assets/newspage.png" />
     </div>
     <a
-      href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=403%3A10"
+      href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=495%3A154"
       target="_blank"
       class="border-0 border-gray-400 border-r btn btn--tertiary btn--xs cursor-pointer inline-block"
     >
