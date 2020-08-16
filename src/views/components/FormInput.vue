@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6 mb-24">
-    <h1 class="font-bold mb-16">Text Input</h1>
+    <h1>Text Input</h1>
     <p>
       Text Inputs are there to catch a small amount of data from users, if you
       expect larger amounts of data use a Textarea. Keep in mind to always use a
@@ -15,7 +15,7 @@
         <form-input label="First name"></form-input>
       </form>
     </code-loader>
-    <h2 class="my-5">Input States</h2>
+    <h2>Input States</h2>
     <p>
       As Inputs can be disabled, invalid and more we provide different states
       out of the box.
@@ -39,7 +39,7 @@
       </form>
     </code-loader>
 
-    <h2 class="my-5">Input with icon</h2>
+    <h2>Input with icon</h2>
     <p>
       Text Inputs can be used with icons. We suggest using these inputs as
       search to navigate large amounts of complex content.

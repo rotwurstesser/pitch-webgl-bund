@@ -1,6 +1,21 @@
 <template>
   <div>
     <div class="space-y-6">
+      <h1>Spacings</h1>
+      <info-box class="my-8">
+        <p>
+          Some elements might not be fully available or configured in this
+          prototype. The Elements below serve as an example of how the
+          documentation would look like.
+        </p>
+      </info-box>
+      <p>
+        The organization of space is key to every great design. Spatial systems,
+        grids, and layouts provide rules that give your designs a consistent
+        rhythm, constrain decision making, and help teams stay aligned. This
+        foundational scaffolding is a requirement for all design systems. The
+        examples below show the default spacing scale configured.
+      </p>
       <h2>Spacing scale</h2>
       <p>
         By default, the Styleguide includes a generous and comprehensive numeric
@@ -233,6 +248,7 @@
 </template>
 
 <script>
+import InfoBox from "../../components/InfoBox.vue";
 import resolveConfig from "tailwindcss/resolveConfig";
 const tailwind = require("../../../tailwind.config.js");
 
@@ -278,6 +294,7 @@ const code_extend = `// tailwind.config.js
   }`;
 
 export default {
+  components: { InfoBox },
   data() {
     return {
       theme: mergedTailwind.theme,

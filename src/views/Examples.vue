@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 class="font-bold mb-16">Examples</h1>
-    <h2 class="my-4">Webdesign - Newspage</h2>
+    <h1>Examples</h1>
+    <h2>Webdesign - Newspage</h2>
     <div class="p-8 bg-gray-200 flex justify-center">
       <img class="max-w-screen-sm" src="@/assets/newspage.png" />
     </div>
@@ -18,7 +18,7 @@
     >
       See the coded page
     </span>
-    <h2 class="mt-16 mb-4">Appdesign - Swisscovid</h2>
+    <h2 class="mt-16 ">Appdesign - Swisscovid</h2>
     <div class="p-8 bg-gray-200 flex justify-center">
       <img class="max-w-xs" src="@/assets/appexample.png" />
     </div>
@@ -35,7 +35,7 @@
     >
       See the coded page
     </span>
-    <h2 class="mt-16 mb-4">Webdesign - LOVELIFE</h2>
+    <h2 class="mt-16 ">Webdesign - LOVELIFE</h2>
     <p class="my-5">
       With the flexibility provided by the Design System it is possible to
       provide different experiences for different brands.

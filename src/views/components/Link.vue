@@ -1,11 +1,11 @@
 <template>
   <div class="space-y-6 linkzz">
-    <h2>Links</h2>
+    <h1>Links</h1>
     <info-box class="my-8">
       <p>
-        Some elements might not be fully available in this prototype. The
-        Elements below serve as an example of how the documentation would look
-        like.
+        Some elements might not be fully available or configured in this
+        prototype. The Elements below serve as an example of how the
+        documentation would look like.
       </p>
     </info-box>
     <p></p>
@@ -31,7 +31,7 @@
           meaningful href, it should be rendered using a button element.
         </li>
       </ul>
-      <h2 class="mb-4">Example</h2>
+      <h2>Example</h2>
       <code-loader lang="html">
         <div class="my-4">
           <p class="mb-4">

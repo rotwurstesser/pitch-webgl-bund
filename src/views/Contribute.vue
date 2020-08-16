@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1 class="font-bold mb-16">Contribute</h1>
+    <h1>Contribute</h1>
     <p>
       There are many ways you can contribute to the design system, including
       submission of elements, bug fixes, documentation improvements, and
       participation in discussions.
     </p>
-    <h2 class="mb-12">
+    <h2>
       General Contributing Guidelines
     </h2>
     <h3 class="h2 font-bold mb-4">As Designer</h3>
