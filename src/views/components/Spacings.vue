@@ -248,9 +248,10 @@
 </template>
 
 <script>
+import InfoBox from "../../components/InfoBox.vue";
 import resolveConfig from "tailwindcss/resolveConfig";
 const tailwind = require("../../../tailwind.config.js");
-import InfoBox from "../components/InfoBox.vue";
+
 const mergedTailwind = resolveConfig(tailwind);
 
 const code = `// tailwind.config.js
