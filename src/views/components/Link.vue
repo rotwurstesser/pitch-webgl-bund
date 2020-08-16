@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-6 linkzz">
-    <h2>Links</h2>
+    <h1>Links</h1>
     <info-box class="my-8">
       <p>
         Some elements might not be fully available in this prototype. The
