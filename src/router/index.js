@@ -110,6 +110,14 @@ const routes = [
     }
   },
   {
+    path: "/components/link",
+    name: "ComponentsLink",
+    components: {
+      main: () => import("../views/components/Link.vue"),
+      sidebar: () => import("../views/menus/ComponentsMenu.vue")
+    }
+  },
+  {
     path: "/components/infobox",
     name: "ComponentsInfoBox",
     components: {

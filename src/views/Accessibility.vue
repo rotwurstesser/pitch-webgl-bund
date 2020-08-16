@@ -29,3 +29,9 @@
     products that anyone can use.
   </div>
 </template>
+<script>
+import InfoBox from "../components/InfoBox.vue";
+export default {
+  components: { InfoBox }
+};
+</script>
