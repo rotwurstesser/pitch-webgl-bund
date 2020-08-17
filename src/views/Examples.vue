@@ -7,7 +7,7 @@
     </p>
     <p class="mb-12">
       Contribute to this library by submitting your work based on the official Design System.
-      <btn variant="link">Submit your example</btn>
+      <btn variant="link" class="cursor-not-allowed">Submit your example</btn>
     </p>
     <h2>Webdesign - Landing</h2>
     <div class="p-8 bg-gray-200 flex justify-center">
