@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="mt-8">
-      <div class="mt-1 space-y-1" role="group" aria-labelledby="atoms-headline">
+    <div>
+      <div class="mt-2 space-y-1" role="group" aria-labelledby="atoms-headline">
         <router-link
           to="/components/"
           class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-700 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"

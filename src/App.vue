@@ -48,7 +48,7 @@
       </div-->
       <!-- Static sidebar for desktop -->
       <div class="sidebar hidden lg:flex lg:flex-shrink-0">
-        <div class="flex flex-col w-64 border-r border-gray-400 pt-5 pb-4">
+        <div class="flex flex-col w-64 border-r border-gray-400 pt-16 pb-4">
           <!-- Sidebar component, swap this element with another sidebar if you like -->
           <div class="h-0 flex-1 flex flex-col overflow-y-auto relative">
             <!-- Sidebar Search --
@@ -65,7 +65,7 @@
             </div-->
 
             <!-- Navigation -->
-            <nav aria-label="sidebar-navigation" class="px-3 mt-6">
+            <nav aria-label="sidebar-navigation" class="px-3">
               <router-view name="sidebar"></router-view>
             </nav>
           </div>

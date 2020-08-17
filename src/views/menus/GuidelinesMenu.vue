@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mt-8">
+    <div class="mt-2">
       <div class="mt-1 space-y-1" role="group" aria-labelledby="atoms-headline">
         <router-link
           to="/guidelines#introduction"
