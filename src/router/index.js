@@ -17,7 +17,7 @@ const routes = [
     name: "Guidelines",
     components: {
       main: () => import("../views/Guidelines.vue"),
-      sidebar: () => import("../views/menus/GetStartedMenu.vue")
+      sidebar: () => import("../views/menus/GuidelinesMenu.vue")
     }
   },
   {
