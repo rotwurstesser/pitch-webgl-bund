@@ -1,9 +1,17 @@
 <template>
   <div>
     <h1>Examples</h1>
+    <p class="mb-4">
+      This page regroups a collection of existing templates built with this Design System.
+      Start your work based on these validated designs to keep consistency, speed up your work and fit with the corporate identity of the Swiss Confederation.
+    </p>
+    <p class="mb-12">
+      Contribute to this library by submitting your work based on the official Design System.
+      <btn variant="link">Submit your example</btn>
+    </p>
     <h2>Webdesign - Landing</h2>
     <div class="p-8 bg-gray-200 flex justify-center">
-      <img class="max-w-screen-sm" src="@/assets/cantons.png" />
+      <img class="md:max-w-screen-sm" src="@/assets/cantons.png" />
     </div>
     <a
       href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=495%3A154"
@@ -20,7 +28,7 @@
     </span>
     <h2 class="mt-16">Webdesign - Newspage</h2>
     <div class="p-8 bg-gray-200 flex justify-center">
-      <img class="max-w-screen-sm" src="@/assets/newspage.png" />
+      <img class="md:max-w-screen-sm" src="@/assets/newspage.png" />
     </div>
     <a
       href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=403%3A10"
@@ -37,7 +45,7 @@
     </span>
     <h2 class="mt-16 ">Appdesign - Swisscovid</h2>
     <div class="p-8 bg-gray-200 flex justify-center">
-      <img class="max-w-xs" src="@/assets/appexample.png" />
+      <img class="md:max-w-screen-sm" src="@/assets/appexample.png" />
     </div>
     <a
       href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=403%3A233"
@@ -63,7 +71,7 @@
       </btn>
     </p>
     <div class="p-8 bg-gray-200 flex justify-center">
-      <img class="max-w-screen-sm" src="@/assets/lovelife.png" />
+      <img class="md:max-w-screen-sm" src="@/assets/lovelife.png" />
     </div>
     <a
       href="https://www.figma.com/file/tohWKnhnuXCVoG1o1br2MK/Bund-Design-System?node-id=411%3A0"
