@@ -3,7 +3,7 @@
     <h1>The Grid</h1>
     <p class="text-gray-500 mb-8">
       Swiss Design is synonymous with International Style by utilizing the most
-      influential tool in modern design history: the Grid.The Design Grid is an
+      influential tool in modern design history: the Grid. The Design Grid is an
       orderly set of regularly spaced lines that help dictate the arrangement of
       text and image on a page layout. Even in the absence of any lines at all,
       you feel the Grid giving shape and structure, guiding and constraining.
