@@ -4,7 +4,7 @@
       <div
         class="flex items-center justify-between px-6 border-b border-gray-400"
       >
-        <router-link to="/" class="ml-0 hover:text-gray-700">
+        <router-link to="/" class="ml-0 logo-wrapper">
           <svg-icon
             name="logo"
             class="svg-icon svg-icon--logo my-6"
@@ -125,8 +125,14 @@ export default {
 .sidebar .router-link-exact-active svg {
   @apply text-red-700 transition ease-in-out duration-150;
 }
+
 .sidebar .router-link-exact-active:hover,
 .sidebar .router-link-exact-active:hover svg {
   @apply text-red-600;
+}
+
+/* keep the logo color consistent */
+.logo-wrapper {
+  color: #1A1919 !important;
 }
 </style>
