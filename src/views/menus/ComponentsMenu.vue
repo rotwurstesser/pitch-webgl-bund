@@ -1,14 +1,18 @@
 <template>
   <div>
     <div>
-      <div class="mt-2 space-y-1" role="group" aria-labelledby="atoms-headline">
-        <router-link
-          to="/components/"
-          class="no-underline group flex items-center px-2 py-1 leading-5 rounded-md text-gray-700 focus:outline-none focus:bg-gray-50 transition ease-in-out duration-150"
-        >
-          Introduction
-        </router-link>
-      </div>
+      <form>
+        <form-input
+          :label-hidden="true"
+          label="search component"
+          variant="icon"
+          placeholder="Search component"
+          icon="search"
+          class="mt-1 mb-8 mx-2"
+        />
+      </form>
+    </div>
+    <div>
       <h3
         class="mt-10 mb-4 px-2 text-xs leading-4 font-medium text-gray-700 uppercase tracking-wider"
         id="atoms-headline"
@@ -112,5 +116,11 @@
   </div>
 </template>
 <script>
-export default {};
+import FormInput from "@/components/FormInput.vue";
+export default {
+  components: {
+    FormInput
+  }
+};
+
 </script>
