@@ -2,7 +2,7 @@
   <div>
     <h1>Changelog</h1>
     <h2>Version 0.12.91</h2>
-    <h3 class="text-xs text-gray-600">Released on: 1. August</h3>
+    <h3 class="text-xs text-gray-600">Released: 17. August 2020</h3>
     <ul class="text-sm space-y-5 list-disc">
       <li>Added brand elements (#7)</li>
       <li>Added added icons and interaction components (#6)</li>
