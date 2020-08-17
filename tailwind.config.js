@@ -335,7 +335,8 @@ module.exports = {
     strokeWidth: {
       "0": "0",
       "1": "1",
-      "2": "2"
+      "2": "2",
+      "light": "0.5"
     },
     textColor: theme => theme("colors"),
     textOpacity: theme => theme("opacity"),
