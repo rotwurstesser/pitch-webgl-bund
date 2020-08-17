@@ -57,26 +57,6 @@
       <div class="grid__item">
         <card class="space-y-6 h-full">
           <h2>
-            Contribute
-          </h2>
-          <p>
-            Whether you are developer, designer or neither. Everyone can
-            contribute to this styleguide.
-          </p>
-          <template v-slot:footer>
-            <btn
-              variant="primary"
-              size="large"
-              @click.native="$router.push({ name: 'Contribute' })"
-            >
-              Find out how to contribute
-            </btn>
-          </template>
-        </card>
-      </div>
-      <div class="grid__item">
-        <card class="space-y-6 h-full">
-          <h2>
             Migrate to the new Design
           </h2>
           <p>
@@ -90,6 +70,26 @@
               @click.native="$router.push({ name: 'Migration' })"
             >
               Discover migration manual
+            </btn>
+          </template>
+        </card>
+      </div>
+      <div class="grid__item">
+        <card class="space-y-6 h-full">
+          <h2>
+            Contribute
+          </h2>
+          <p>
+            Whether you are developer, designer or neither. Everyone can
+            contribute to this styleguide.
+          </p>
+          <template v-slot:footer>
+            <btn
+              variant="primary"
+              size="large"
+              @click.native="$router.push({ name: 'Contribute' })"
+            >
+              Find out how to contribute
             </btn>
           </template>
         </card>

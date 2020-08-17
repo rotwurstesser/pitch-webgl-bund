@@ -12,22 +12,22 @@
     <div>
       <ul class="ml-5 space-y-4 mb-6">
         <li class="flex space-x-4">
-          <svg-icon class="h-6 w-12" name="arrow" /> When providing the content
+          <svg-icon class="h-6 w-12 flex-shrink-0" name="arrow" /> When providing the content
           for the link, avoid generic descriptions like "click here" or "go to".
           Instead, use specific descriptions
         </li>
         <li class="flex space-x-4">
-          <svg-icon class="h-6 w-12" name="arrow" /> On larger sites and for
+          <svg-icon class="h-6 w-12 flex-shrink-0" name="arrow" /> On larger sites and for
           more important links use the arrow icon to guide the users eye. Id you
           link to a document, consider using a document icon before the link. If
           you do, do not forget to hide the icon for screenreaders.
         </li>
         <li class="flex space-x-4">
-          <svg-icon class="h-6 w-12" name="arrow" /> For the best user
+          <svg-icon class="h-6 w-12 flex-shrink-0" name="arrow" /> For the best user
           experience, links should stand out from the text on the page.
         </li>
         <li class="flex space-x-4">
-          <svg-icon class="h-6 w-12" name="arrow" /> If a link doesn't have a
+          <svg-icon class="h-6 w-12 flex-shrink-0" name="arrow" /> If a link doesn't have a
           meaningful href, it should be rendered using a button element.
         </li>
       </ul>
@@ -49,12 +49,12 @@
           </p>
           <a
             alt="Seite des Bag, Infos für Fachpersonen"
-            class="flex space-x-4 mb-4 btn"
+            class="flex space-x-4 mb-4 btn btn--link"
             href="https://www.bag.admin.ch/bag/de/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/information-fuer-die-aerzteschaft.html"
           >
             <svg-icon
               aria-hidden="true"
-              class="h-6 w-12"
+              class="h-6 w-12 flex-shrink-0"
               name="arrow"
             />Informationen für Gesundheitsfachpersonen
           </a>
@@ -70,7 +70,7 @@
 </template>
 <style lang="postcss">
 .linkzz a {
-  @apply font-bold text-red-700;
+  @apply text-red-700;
 }
 </style>
 <script>

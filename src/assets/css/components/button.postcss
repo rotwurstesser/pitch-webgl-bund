@@ -17,6 +17,10 @@
 
   &:disabled {
     @apply text-gray-400 border-gray-200 bg-gray-100 cursor-not-allowed;
+
+    & svg {
+      opacity: 0.25;
+    }
   }
 }
 
@@ -72,7 +76,7 @@
 
   &:hover:not(:disabled),
   &:focus:not(:disabled) {
-    @apply text-blue-700 border-blue-700;
+    @apply text-red-600 border-red-600;
   }
 
   &:disabled {
