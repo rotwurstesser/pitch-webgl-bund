@@ -4,10 +4,10 @@
       <div
         class="flex items-center justify-between px-6 border-b border-gray-400"
       >
-        <router-link to="/" class="ml-0">
+        <router-link to="/" class="ml-0 hover:text-gray-700">
           <svg-icon
             name="logo"
-            class="fill-current h-24 mt-10 svg-icon svg-icon--logo w-auto"
+            class="svg-icon svg-icon--logo my-6"
           />
         </router-link>
         <div class="lg:hidden">
@@ -26,16 +26,16 @@
           </svg>
         </div>
         <div class="hidden lg:block">
-          <router-link to="/" class="main-navigation__item">
+          <router-link to="/" class="main-navigation__item font-bold">
             Get started
           </router-link>
-          <router-link to="/guidelines" class="main-navigation__item">
+          <router-link to="/guidelines" class="main-navigation__item font-bold">
             Guidelines
           </router-link>
-          <router-link to="/components" class="main-navigation__item">
+          <router-link to="/components" class="main-navigation__item font-bold">
             Components
           </router-link>
-          <router-link to="/examples" class="main-navigation__item">
+          <router-link to="/examples" class="main-navigation__item font-bold">
             Examples
           </router-link>
         </div>
