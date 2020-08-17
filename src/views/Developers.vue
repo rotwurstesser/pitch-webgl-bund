@@ -2,9 +2,22 @@
 <template>
   <div>
     <h1>Information for Developers</h1>
-    <h2 class="font-medium">
+    <h2 class="font-medium mb-12">
       The Digital Design System of the Swiss Confederation provides guidelines, assets and documentation for Developers. Using the provided components, styles, assets and markup ensure a unified product and reduce tech debt.
     </h2>
+    <h2>
+      Migrate to the new Design
+    </h2>
+    <p>
+      If you need to convert your Website from the old Design to the new
+      one you can find the documentation here.
+    </p>
+    <btn
+        variant="link" class="mb-12"
+        @click.native="$router.push({ name: 'Migration' })"
+      >
+        Discover migration manual
+      </btn>
     <h2>What the Design System covers</h2>
     <p>
       The Design System provides front-end developers & engineers a collection of reusable HTML and CSS classes, as well as guidance on how to use them. Adopting the library enables developers to use consistent markup, styles, and behavior in prototype and production work.
