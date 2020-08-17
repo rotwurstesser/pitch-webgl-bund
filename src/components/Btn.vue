@@ -19,7 +19,7 @@ export default {
     },
     variant: {
       type: String,
-      validator: prop => ["default", "primary", "secondary", "link"].includes(prop)
+      validator: prop => ["default", "primary", "secondary", "link", "grid"].includes(prop)
     },
     disabled: {
       type: Boolean,
