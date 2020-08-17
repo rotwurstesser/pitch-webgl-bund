@@ -8,6 +8,7 @@
         documentation would look like.
       </p>
     </info-box>
+
     <h2>Key Principles</h2>
     <p class="mb-4">
       The Design System aims to align with the Guidelines of the Swiss
@@ -53,7 +54,23 @@
     <p>
       The key principles are a way to keep your design consistent, in accordance with the corparate identiy of the Swiss Confederation.
     </p>
-    <btn variant="link" class="mb-12">Learn more about key principles</btn>
+    <btn variant="link" class="mb-16">Learn more about key principles</btn>
+
+    <h2>Typography</h2>
+    <p>The Design System uses Suisse Sign. What sets Suisse Sign apart is its large
+    apertures – most evident in a, e, g, s – and the reworked uppercase glyphs.
+    The design deviates from the classic Grotesk model, and instead tunes into
+    the new sans serif as it emerged in the last third of the 20th century, with
+    open shapes and a more economical set width. Suisse Sign covers a wide range
+    of applications from small text sizes to big headlines. As the name implies,
+    it’s particularly well suited for signage and wayfinding: Characters with
+    open counters are less ambiguous and easier to identify from a distance. A
+    letter like c can’t be mistaken for an o, even under poor lighting or other
+    limiting viewing conditions. The barred I is another means that helps in
+    situations were impeccable legibility is required. Suisse Sign comes in
+    Thin, Regular, Semi Bold, and Bold, with italics for all weights.
+    </p>
+    <btn variant="link" class="mb-16">Discover the font and its usage</btn>
 
     <h2>Logotype</h2>
     <p>

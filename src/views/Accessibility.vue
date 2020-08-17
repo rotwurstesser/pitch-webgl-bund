@@ -22,11 +22,18 @@
         <svg-icon class="h-6 w-12" name="arrow" /> Adapt to users and situations
       </li>
     </ul>
-    Our Styleguide strives to write perceivable, operable, and understandable
-    patterns for all users—including those employing a screen reader or other
-    assistive technology. Individually accessible elements and components are
-    part of building accessible products. Use this guide to design and build
-    products that anyone can use.
+    <p>
+      Our Styleguide strives to write perceivable, operable, and understandable
+      patterns for all users—including those employing a screen reader or other
+      assistive technology. Individually accessible elements and components are
+      part of building accessible products. Use this guide to design and build
+      products that anyone can use.
+    </p>
+    <h2 class="mt-6">Checklist</h2>
+    <p>
+      If you are unsure whether something is accessible our checklist can help
+      you to test it.
+    </p>
   </div>
 </template>
 <script>
