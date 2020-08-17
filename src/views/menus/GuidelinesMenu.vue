@@ -38,6 +38,7 @@
         >
           Logotype
         </router-link>
+        <div class="px-2 py-1">…</div>
       </div>
     </div>
   </div>
